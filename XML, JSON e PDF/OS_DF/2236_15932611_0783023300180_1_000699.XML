@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConsultarNfseServicoPrestadoResposta xmlns="http://www.abrasf.org.br/nfse.xsd">
+  <ListaNfse>
+    <CompNfse>
+      <Nfse versao="2.04">
+        <InfNfse>
+          <Numero>699</Numero>
+          <CodigoVerificacao>2E72FE526</CodigoVerificacao>
+          <DataEmissao>2024-05-02</DataEmissao>
+          <OutrasInformacoes>I - "DOCUMENTO EMITIDO POR ME OU EPP OPTANTE PELO SIMPLES NACIONAL"; e II - "NÃO GERA DIREITO A CRÉDITO FISCAL DE IPI."</OutrasInformacoes>
+          <ValoresNfse>
+            <BaseCalculo>2750.00</BaseCalculo>
+            <ValorLiquidoNfse>2750.00</ValorLiquidoNfse>
+          </ValoresNfse>
+          <DescricaoCodigoTributacaoMunicípio>(2%) 1.03 - Serviços de projeto, planejamento, implantação, gerenciamento e manutenção da operação de redes de comunicação de dados.</DescricaoCodigoTributacaoMunicípio>
+          <ValorCredito>0.00</ValorCredito>
+          <PrestadorServico>
+            <RazaoSocial>ADAPTA SOLUCOES DIGITAIS LTDA</RazaoSocial>
+            <NomeFantasia>ADAPTA</NomeFantasia>
+            <Endereco>
+              <Endereco>RUA R3 NORTE LOTE 04 RUA MANACA LOTE 03 S/N : TORRE B ; APT: 905;</Endereco>
+              <Complemento></Complemento>
+              <Bairro>Norte (Águas Claras)</Bairro>
+              <CodigoMunicipio>5300108</CodigoMunicipio>
+              <Uf>DF</Uf>
+              <Cep>71907360</Cep>
+            </Endereco>
+            <Contato>
+              <Telefone>0684050970</Telefone>
+              <Email>contato@adapta.online</Email>
+            </Contato>
+          </PrestadorServico>
+          <OrgaoGerador>
+            <CodigoMunicipio>5300108</CodigoMunicipio>
+            <Uf>DF</Uf>
+          </OrgaoGerador>
+          <DeclaracaoPrestacaoServico>
+            <InfDeclaracaoPrestacaoServico Id="699">
+              <Competencia>2024-05-02</Competencia>
+              <Servico>
+                <Valores>
+                  <ValorServicos>2750.00</ValorServicos>
+                  <ValorDeducoes>0.00</ValorDeducoes>
+                  <ValorPis>0.00</ValorPis>
+                  <ValorCofins>0.00</ValorCofins>
+                  <ValorInss>0.00</ValorInss>
+                  <ValorIr>0.00</ValorIr>
+                  <ValorCsll>0.00</ValorCsll>
+                  <OutrasRetencoes>0.00</OutrasRetencoes>
+                  <ValorIss>119.62</ValorIss>
+                  <Aliquota>4.35</Aliquota>
+                  <DescontoIncondicionado>0.00</DescontoIncondicionado>
+                  <DescontoCondicionado>0.00</DescontoCondicionado>
+                </Valores>
+                <IssRetido>2</IssRetido>
+                <ItemListaServico>01.03</ItemListaServico>
+                <CodigoCnae>6209100</CodigoCnae>
+                <CodigoTributacaoMunicipio>103</CodigoTributacaoMunicipio>
+                <Discriminacao>Hospedagem Moodle - Ref. setembro 2023 - pagamento até 10.11.2023
+Banco Inter : 077   ||  Agência: 0001    || Conta: 127891196  ||   Pix: 28839415000172</Discriminacao>
+                <CodigoMunicipio>5300108</CodigoMunicipio>
+                <ExigibilidadeISS>1</ExigibilidadeISS>
+                <MunicipioIncidencia>5300108</MunicipioIncidencia>
+              </Servico>
+              <Prestador>
+                <CpfCnpj>
+                  <Cnpj>28839415000172</Cnpj>
+                </CpfCnpj>
+                <InscricaoMunicipal>0783023300180</InscricaoMunicipal>
+              </Prestador>
+              <TomadorServico>
+                <IdentificacaoTomador>
+                  <CpfCnpj>
+                    <Cnpj>92685833000151</Cnpj>
+                  </CpfCnpj>
+                </IdentificacaoTomador>
+                <RazaoSocial>ASSOCIACAO HOSPITALAR MOINHOS DE VENTO</RazaoSocial>
+                <Endereco>
+                  <Endereco>Rua Ramiro Barcelos</Endereco>
+                  <Numero>910</Numero>
+                  <Bairro>Moinhos de Vento</Bairro>
+                  <CodigoMunicipio>4314902</CodigoMunicipio>
+                  <Uf>RS</Uf>
+                  <Cep>90035001</Cep>
+                </Endereco>
+                <Contato>
+                  <Email>MARINES@HMV.ORG.BR</Email>
+                </Contato>
+              </TomadorServico>
+              <OptanteSimplesNacional>1</OptanteSimplesNacional>
+              <IncentivoFiscal>2</IncentivoFiscal>
+            </InfDeclaracaoPrestacaoServico>
+            <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+              <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <Reference URI="#699">
+                  <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                    <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+                  </Transforms>
+                  <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <DigestValue>xflI6kyihTBVmomommuWiG02PtA=</DigestValue>
+                </Reference>
+              </SignedInfo>
+              <SignatureValue>Ij3AfDMt8AvthcFuItFYWktEox0l9Qwz0dJ467ajlZWSEEvhVpKNKjq5hOazqPGhyUmLC3W6yj/yDd/7gcir4ra3fvep0PSgtePwWGffGFC8Pm9e/Fsuw5wtG0V0U3y0MIFf9hwneNBbWwrOmU3ICstiJFyMvcdES9bLk+ZBzAHIe9AHt3mzvIkcwTr5dQkrbvaSWnehMlZLR7KrfqLgyDSNAPhoYuyiXPUB59hlLRezFTXM7Z2KO7j+PiwOfZ/yrasw+ZrK8KVQwHvnTFgEa9/R61OYb6ci351i05dNPV3qrCh5i7tXQSnv42o4AZO2tLwg7NFdU2xUsL/uc4YzoA==</SignatureValue>
+              <KeyInfo>
+                <X509Data>
+                  <X509Certificate>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</X509Certificate>
+                </X509Data>
+              </KeyInfo>
+            </Signature>
+          </DeclaracaoPrestacaoServico>
+        </InfNfse>
+      </Nfse>
+    </CompNfse>
+    <Pagina>1</Pagina>
+  </ListaNfse>
+</ConsultarNfseServicoPrestadoResposta>

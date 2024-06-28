@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompNfse>
+  <Nfse versao="1.00">
+    <InfNfse Id="nfse">
+      <Numero>393341</Numero>
+      <CodigoVerificacao>XGSIWDTX</CodigoVerificacao>
+      <DataEmissao>2024-06-03</DataEmissao>
+      <IdentificacaoRps>
+        <Numero />
+        <Serie />
+        <Tipo />
+      </IdentificacaoRps>
+      <DataEmissaoRps />
+      <NaturezaOperacao />
+      <OptanteSimplesNacional>2</OptanteSimplesNacional>
+      <IncentivadorCultural />
+      <Competencia>2024-06-03</Competencia>
+      <Servico>
+        <Valores>
+          <ValorServicos>7191.35</ValorServicos>
+          <ValorPis>0,00</ValorPis>
+          <ValorCofins>0,00</ValorCofins>
+          <ValorIr>0,00</ValorIr>
+          <ValorCsll>0,00</ValorCsll>
+          <IssRetido></IssRetido>
+          <ValorInss>0,00</ValorInss>
+          <ValorIss />
+          <BaseCalculo />
+          <Aliquota>2,90</Aliquota>
+          <ValorLiquidoNfse />
+        </Valores>
+        <ItemListaServico />
+        <CodigoTributacaoMunicipio />
+        <Discriminacao>Licenciamento de uso solução Biotracker Pro .............. 5.436,35 |
+Licenciamento de uso solução Biotracker HT Smart - Biokit Leitor  .............. 355,00 |
+Licenciamento de uso solução Biotracker Pacote de impressão .............. 1.400,00 |
+Vencimento desta ..............20/10/2023 |
+Contrato: 233666 |
+ |
+A licença de uso da plataforma Bionexo, por se tratar de licenciamento ou cessão de direito de uso de programa de computação, é dispensada das retenções na fonte do IRRF e das CSRF, visto que a atividade não consta na lista de serviços profissionais sujeitos a retenção previstos no Artigo 714 do Decreto 9.580/2018 e no Artigo 30 da Lei 10.833/2003. |
+ |
+Os serviços constantes desta nota fiscal foram prestados no estabelecimento da contratada (Bionexo do Brasil Ltda). |
+ |
+Contato Contas a Receber Bionexo 11 3133-8100</Discriminacao>
+        <CodigoMunicipio>0</CodigoMunicipio>
+      </Servico>
+      <PrestadorServico>
+        <IdentificacaoPrestador>
+          <Cnpj>04069709000102</Cnpj>
+          <InscricaoMunicipal>29770416</InscricaoMunicipal>
+        </IdentificacaoPrestador>
+        <RazaoSocial>BIONEXO S.A.</RazaoSocial>
+        <NomeFantasia />
+        <Endereco>
+          <Endereco />
+          <Numero />
+          <Complemento />
+          <Bairro />
+          <CodigoMunicipio>3550308</CodigoMunicipio>
+          <Uf>SP</Uf>
+          <Cep />
+        </Endereco>
+        <Contato>
+          <Telefone />
+        </Contato>
+      </PrestadorServico>
+      <TomadorServico>
+        <IdentificacaoTomador>
+          <CpfCnpj>
+            <Cnpj>92685833000151</Cnpj>
+          </CpfCnpj>
+        </IdentificacaoTomador>
+        <RazaoSocial>ASSOCIACAO HOSPITALAR MOINHOS DE VENTO</RazaoSocial>
+        <Endereco>
+          <Endereco />
+          <Numero />
+          <Bairro />
+          <CodigoMunicipio />
+          <Uf />
+          <Cep />
+        </Endereco>
+        <Contato>
+          <Telefone />
+          <Email />
+        </Contato>
+      </TomadorServico>
+      <OrgaoGerador>
+        <CodigoMunicipio>3550308</CodigoMunicipio>
+        <Uf>SP</Uf>
+      </OrgaoGerador>
+    </InfNfse>
+  </Nfse>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>DmZK5avPPZDhRzTw5Zb69qcyKbw=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>gLs5vmQ/h25u7rF/EWlhrXALkKDmd/kG74Txuwxw9KhSzOvKioa4Ywcmv8UNOdczg6W4BAcXmCHp
+TOu3SqqX8r1+LtT6rCDrZLcSlK+OpDaETXrRdiGSdtlWmXhSI+opxUZi2PRpQr2dT4RZZtY240X2
+sfBOG7rKj0p5/udXSDOTz7XrCKQcJkcRkp091b2jcvByhHxVO9wm3oC7sBwHwTjRvQi0AoceTrRT
+LlIbZogJAlCh5RNa/pEMXuM1iTebhLx+PEEzyVoK1BezFqs7hvc6eSlirQajKpWlNXk/wL3qe7TA
+uetMaAOYMAk+UkQDrGwoyYiRMA2nCfJQEpdsFQ==</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>MIIH1DCCBbygAwIBAgIIUhd/N8yUUbMwDQYJKoZIhvcNAQELBQAwdjELMAkGA1UEBhMCQlIxEzAR
+BgNVBAoTCklDUC1CcmFzaWwxNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFs
+IGRvIEJyYXNpbCAtIFJGQjEaMBgGA1UEAxMRQUMgU0FGRVdFQiBSRkIgdjUwHhcNMjIxMjE5MTkw
+MjI3WhcNMjMxMjE5MTkwMjI3WjCB7DELMAkGA1UEBhMCQlIxEzARBgNVBAoTCklDUC1CcmFzaWwx
+CzAJBgNVBAgTAlNQMRIwEAYDVQQHEwlTQU8gUEFVTE8xNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEg
+UmVjZWl0YSBGZWRlcmFsIGRvIEJyYXNpbCAtIFJGQjEWMBQGA1UECxMNUkZCIGUtQ05QSiBBMTEX
+MBUGA1UECxMOMDE1NzkyODYwMDAxNzQxGTAXBgNVBAsTEHZpZGVvY29uZmVyZW5jaWExIzAhBgNV
+BAMTGkJJT05FWE8gUyBBOjA0MDY5NzA5MDAwMTAyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA4EMFvxBZ8yComjNwGJTXyyArs0YWh1HzacTnZ7Cvm5bmm7n62lkRK6G9RwTKQjP+wMwR
+OezG6E1bBbGkLYvuDI1WDySaGVRDKszXm7pQ2bmiTgkwJpW8mmdiLbA9CLpmXgAL9yY6555iUrF2
+jZa4D4Nmba1BnwsP/f3CLRA6WHZbG1/Z9xxN6+EP11/JHVRzDeZaJ+d4ebo5DSMb2efM+rkYJCCu
+b3hmCyhgmSK7M+n9NV5orek7j5bMNV+oR5e+DYC9KY7ChZ6ygzaZS01caOnUzV6haBdQTL9bCr4f
+UqLURctXwcTvc2+adUa/pOuDGEhRbWvk93Pv8DPqZsL+DQIDAQABo4IC7TCCAukwHwYDVR0jBBgw
+FoAUKV5L1UZMu/4Wp2PBHcQm8t3Y8wUwDgYDVR0PAQH/BAQDAgXgMGkGA1UdIARiMGAwXgYGYEwB
+AgEzMFQwUgYIKwYBBQUHAgEWRmh0dHA6Ly9yZXBvc2l0b3Jpby5hY3NhZmV3ZWIuY29tLmJyL2Fj
+LXNhZmV3ZWJyZmIvZHBjLWFjc2FmZXdlYnJmYi5wZGYwga4GA1UdHwSBpjCBozBPoE2gS4ZJaHR0
+cDovL3JlcG9zaXRvcmlvLmFjc2FmZXdlYi5jb20uYnIvYWMtc2FmZXdlYnJmYi9sY3ItYWMtc2Fm
+ZXdlYnJmYnY1LmNybDBQoE6gTIZKaHR0cDovL3JlcG9zaXRvcmlvMi5hY3NhZmV3ZWIuY29tLmJy
+L2FjLXNhZmV3ZWJyZmIvbGNyLWFjLXNhZmV3ZWJyZmJ2NS5jcmwwgbcGCCsGAQUFBwEBBIGqMIGn
+MFEGCCsGAQUFBzAChkVodHRwOi8vcmVwb3NpdG9yaW8uYWNzYWZld2ViLmNvbS5ici9hYy1zYWZl
+d2VicmZiL2FjLXNhZmV3ZWJyZmJ2NS5wN2IwUgYIKwYBBQUHMAKGRmh0dHA6Ly9yZXBvc2l0b3Jp
+bzIuYWNzYWZld2ViLmNvbS5ici9hYy1zYWZld2VicmZiL2FjLXNhZmV3ZWJyZmJ2NS5wN2IwgbUG
+A1UdEQSBrTCBqoEUUkJBUkJPU0FAQklPTkVYTy5DT02gJAYFYEwBAwKgGxMZUkFGQUVMIEtFTExF
+Uk1BTk4gQkFSQk9TQaAZBgVgTAEDA6AQEw4wNDA2OTcwOTAwMDEwMqA4BgVgTAEDBKAvEy0xMzAy
+MTk4NTMzMTUyNDQwODEyMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDCgFwYFYEwBAwegDhMMMDAw
+MDAwMDAwMDAwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDAJBgNVHRMEAjAAMA0GCSqG
+SIb3DQEBCwUAA4ICAQAFkU7XBLu/lYNfAuV3yB2RDWOwoEBLqNlCDB1o8bvfq3nZt5E14SlkGqE1
+QH+RnmiJY1xqa4HJjZuwTUfdCOjN0Sro8190d1l9oNsCOuzRcJ+UUV+W0Y24ZDoB5t0hAZuNunYe
+8oflZPjZMvEYBNDq0+t8O4rSL1rcs+6ZbNMtusQnAWrEZ7O4TfEFvg3zPtJ2uR7dBjzGwCTVP8uF
+u/4pNy4WKQI8i1jtqUUbpRaREgo2yMnmYoYDspZddrHhPa4dOZG8rX5nM1zg1inMYjyc+mMucySb
+5LiKszdMCQGsJpHG0bKYXpvVAH9djVcAclfzj6iQflzP3+/N0KGbf3sDWSfaZaEmO0e7ubqdvhLS
+As8btP9++TIuHefte2Rvcy+xYIfM1pRm1i4RKnq7ysZTGCRPhErzZStre13HDqE9NawsVLmnuVls
+B7YHveFQw4f6Nem8nD3YgL2GrmyJzFDfJdo3Kg7y/ldw+jfh9miQKrVNj7XW85u9Vyw1oaL2W/Qk
+Di/NbK20cAjqBRJsYY+xeVVdCZWDeatiU4Dj2mDlFZkaH7SpVIk6UQNmlLLdle7kNVS4VmOIcV4D
+8JotEgPvBeriwyiX2Q5QcAjI8rRbjD4FDVoPAhx9lEGyt/VfbGb2Z6TeVJYDLoH4CW74YKsOfqQy
+8yjr0n2aNoP1jc1G8g==</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+</CompNfse>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RetornoConsulta>
+  <Cabecalho Versao="1">
+    <Sucesso>true</Sucesso>
+  </Cabecalho>
+  <NFe>
+    <Assinatura>ZC1Nbk5kUw4BVL8Qupe5pzoH9iGBfyvkh02Uz8AaBYAwH1zYQh25fxUUGOGCV9LPdGlHRGIPGkXJ1vSYEp8KHJBR17LluwRD8hIMkyG+TM1Yy2JITQ1H53ayuucC5xl4u8b6LpAg2kF3flvMRADepC5B/Rt4HgajKDA8GAuheYqPoXxuOMyyQ8N9KtcQxF4H1vD1GhNUcgOyzlOp0Kai3judkIl8cNV39fJeoqpwelG2v9M5A/Icc6tvSt3U9sIlkDmow2l9iB9G4UqesMpaxiM3WyM3Nyfj1nW9DFBvQZrcQHX2cMmqp07kBzLj0IewsyH6iBZAicfxS0YvqcXGiQ==</Assinatura>
+    <ChaveNFe>
+      <InscricaoPrestador>67931367</InscricaoPrestador>
+      <NumeroNFe>2239</NumeroNFe>
+      <CodigoVerificacao>BPEXMBC1</CodigoVerificacao>
+    </ChaveNFe>
+    <DataEmissaoNFe>2024-05-02</DataEmissaoNFe>
+    <NumeroLote>1105765637</NumeroLote>
+    <ChaveRPS>
+      <InscricaoPrestador>67931367</InscricaoPrestador>
+      <SerieRPS>SN</SerieRPS>
+      <NumeroRPS>2250</NumeroRPS>
+    </ChaveRPS>
+    <TipoRPS>RPS</TipoRPS>
+    <DataEmissaoRPS>2024-06-05</DataEmissaoRPS>
+    <DataFatoGeradorNFe>2023-09-01T00:00:00</DataFatoGeradorNFe>
+    <CPFCNPJPrestador>
+      <CNPJ>38200831000180</CNPJ>
+    </CPFCNPJPrestador>
+    <RazaoSocialPrestador>VMISAUDE SERVICOS DE INFORMATICA LTDA</RazaoSocialPrestador>
+    <EnderecoPrestador>
+      <TipoLogradouro>R</TipoLogradouro>
+      <Logradouro>DOMINGOS DE MORAIS</Logradouro>
+      <NumeroEndereco>2187</NumeroEndereco>
+      <ComplementoEndereco>CONJ  606</ComplementoEndereco>
+      <Bairro>VILA MARIANA</Bairro>
+      <Cidade>3550308</Cidade>
+      <UF>SP</UF>
+      <CEP>4035000</CEP>
+    </EnderecoPrestador>
+    <StatusNFe>N</StatusNFe>
+    <TributacaoNFe>T</TributacaoNFe>
+    <OpcaoSimples>0</OpcaoSimples>
+    <ValorServicos>3570</ValorServicos>
+    <ValorPIS>23.2</ValorPIS>
+    <ValorCOFINS>107.1</ValorCOFINS>
+    <ValorIR>53.55</ValorIR>
+    <ValorCSLL>35.7</ValorCSLL>
+    <CodigoServico>2684</CodigoServico>
+    <AliquotaServicos>0.029</AliquotaServicos>
+    <ValorISS>103.53</ValorISS>
+    <ValorCredito>0</ValorCredito>
+    <ISSRetido>false</ISSRetido>
+    <CPFCNPJTomador>
+      <CNPJ>92685833000151</CNPJ>
+    </CPFCNPJTomador>
+    <RazaoSocialTomador>ASSOCIACAO HOSPITALAR MOINHOS DE VENTO</RazaoSocialTomador>
+    <EnderecoTomador>
+      <TipoLogradouro>R</TipoLogradouro>
+      <Logradouro>Ramiro Barcelos</Logradouro>
+      <NumeroEndereco>910</NumeroEndereco>
+      <Bairro>Moinhos de Vento</Bairro>
+      <Cidade>4314902</Cidade>
+      <UF>RS</UF>
+      <CEP>90035001</CEP>
+    </EnderecoTomador>
+    <EmailTomador>miriam.ribeiro@hmv.org</EmailTomador>
+    <Discriminacao>Mensalidade do software GTPLAN referente ao mes de Agosto.
+ Dados para deposito bancario: Itau 341 / Agencia 0081 / Cc 25162-1
+ Vencimento: 05/10/2023</Discriminacao>
+    <ValorCargaTributaria>581.31</ValorCargaTributaria>
+    <PercentualCargaTributaria>0.1735</PercentualCargaTributaria>
+    <FonteCargaTributaria>IBPT</FonteCargaTributaria>
+  </NFe>
+</RetornoConsulta>

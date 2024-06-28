@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NFSE xsi:schemaLocation="https://iss.fortaleza.ce.gov.br/grpfor/schema/V2/tipos_v02.xsd" xmlns="http://www.ginfes.com.br/tipos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Nfse>
+    <IdentificacaoNfse>
+      <Numero>387</Numero>
+      <CodigoVerificacao>485381052</CodigoVerificacao>
+    </IdentificacaoNfse>
+    <DataEmissao>2024-06-05</DataEmissao>
+    <IdentificacaoRps>
+      <Numero>202300000000146</Numero>
+      <Serie>1</Serie>
+      <Tipo>1</Tipo>
+    </IdentificacaoRps>
+    <DataEmissaoRps>2023-10-20-03:00</DataEmissaoRps>
+    <NaturezaOperacao>1</NaturezaOperacao>
+    <RegimeEspecialTributacao>0</RegimeEspecialTributacao>
+    <OptanteSimplesNacional>2</OptanteSimplesNacional>
+    <IncetivadorCultural>2</IncetivadorCultural>
+    <Competencia>2024-06-05</Competencia>
+    <Servico>
+      <Valores>
+        <ValorServicos>8000</ValorServicos>
+        <IssRetido>2</IssRetido>
+        <ValorIss>400</ValorIss>
+        <BaseCalculo>8000</BaseCalculo>
+        <Aliquota>5</Aliquota>
+        <ValorLiquidoNfse>8000</ValorLiquidoNfse>
+        <ValorIssRetido>0</ValorIssRetido>
+      </Valores>
+      <ItemListaServico>1701</ItemListaServico>
+      <CodigoTributacaoMunicipio>749019999</CodigoTributacaoMunicipio>
+      <Discriminacao>INCLUSAO DE PACIENTES PARA O ESTUDO DE: ENSAIO CLINICO RANDOMIZADO_PROJETO TELEUTI_VALOR UNITARIO POR PACIENTE: R$ 160,00 VALOR TOTAL: R$ 8.000,00_TOTAL DE PACIENTES: 50 - R$ 8.000,00
+Valor aprox. dos tributos de acordo com a Lei No 12.741_2012: R$ 0.00 (0.00%) Fonte: IBPT</Discriminacao>
+      <MunicipioPrestacaoServico>2304400</MunicipioPrestacaoServico>
+    </Servico>
+    <ValorCredito>0</ValorCredito>
+    <PrestadorServico>
+      <IdentificacaoPrestador>
+        <Cnpj>05268526000170</Cnpj>
+        <InscricaoMunicipal>185660</InscricaoMunicipal>
+      </IdentificacaoPrestador>
+      <RazaoSocial>INSTITUTO DE SAUDE E GESTAO HOSPITALAR</RazaoSocial>
+      <Endereco>
+        <Endereco>R SOCORRO GOMES</Endereco>
+        <Numero>190</Numero>
+        <Bairro>GUAJERU</Bairro>
+        <Cidade>2304400</Cidade>
+        <Estado>CE</Estado>
+        <Cep>60843070</Cep>
+      </Endereco>
+      <Contato>
+        <Telefone>(85)3195-2802</Telefone>
+        <Email>nivarda@isgh.org.br</Email>
+      </Contato>
+    </PrestadorServico>
+    <TomadorServico>
+      <IdentificacaoTomador>
+        <CpfCnpj>
+          <Cnpj>92685833000151</Cnpj>
+        </CpfCnpj>
+      </IdentificacaoTomador>
+      <RazaoSocial>ASSOCIACAO HOSPITALAR MOINHOS DE VENTO</RazaoSocial>
+      <Endereco>
+        <Endereco>Rua Ramiro Barcelos</Endereco>
+        <Numero>910</Numero>
+        <Bairro>Moinhos de Vento</Bairro>
+        <Cidade>4314902</Cidade>
+        <Estado>RS</Estado>
+        <Cep>90035001</Cep>
+      </Endereco>
+      <Contato>
+        <Telefone>5135378351</Telefone>
+        <Email>lucas.bourscheid@hmv.org.br</Email>
+      </Contato>
+    </TomadorServico>
+    <OrgaoGerador>
+      <CodigoMunicipio>2304400</CodigoMunicipio>
+      <Uf>CE</Uf>
+    </OrgaoGerador>
+  </Nfse>
+</NFSE>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GerarNfseResposta xmlns="http://nfse.recife.pe.gov.br/WSNacional/XSD/1/nfse_recife_v01.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CompNfse xmlns="http://www.abrasf.org.br/ABRASF/arquivos/nfse.xsd">
+    <Nfse>
+      <InfNfse>
+        <Numero>5906</Numero>
+        <CodigoVerificacao>CX5U-SVUA</CodigoVerificacao>
+        <DataEmissao>2024-06-05</DataEmissao>
+        <IdentificacaoRps>
+          <Numero>2602</Numero>
+          <Serie>NFSE</Serie>
+          <Tipo>1</Tipo>
+        </IdentificacaoRps>
+        <DataEmissaoRps>2023-09-05</DataEmissaoRps>
+        <NaturezaOperacao>1</NaturezaOperacao>
+        <OptanteSimplesNacional>2</OptanteSimplesNacional>
+        <IncentivadorCultural>2</IncentivadorCultural>
+        <Competencia>2024-06-05</Competencia>
+        <Servico>
+          <Valores>
+            <ValorServicos>14702</ValorServicos>
+            <IssRetido>2</IssRetido>
+            <ValorIss>294.04</ValorIss>
+            <BaseCalculo>14702</BaseCalculo>
+            <Aliquota>0.02</Aliquota>
+            <ValorLiquidoNfse>14702</ValorLiquidoNfse>
+          </Valores>
+          <ItemListaServico>0105</ItemListaServico>
+          <CodigoTributacaoMunicipio>6202300</CodigoTributacaoMunicipio>
+          <Discriminacao>LICENCAS PARA GESTAO DE ACESSO A SISTEMAS CRITICOS - 130 USUARIOS - REFERENTE AO MES DE JULHO.VALOR TOTAL: R$ 441.060,00PARCELA: R$ 14.702,00 - 03/30CONTRIBUINTE BENEFICIADO COM A LEI 17.244/2006:"ART. 8o A ALIQUOTA INCIDENTE NAS ATIVIDADES PREVISTAS NO ART. 1o DESTA LEI INCIDENTE NA PRESTACAO DE SERVICOS DOS CONTRIBUINTES PARTICIPANTES DO PROGRAMA DE INCENTIVO AO PORTO DIGITAL, SERA DE 2% (DOIS POR CENTO).Vencto. 30/10/2023Trib aprox R$ 1.977,42 Federal e R$ 735,10 Municipal  Fonte: IBPT/empresometro.com.br - 6042E8 - Tabela: NBS</Discriminacao>
+          <CodigoMunicipio>2611606</CodigoMunicipio>
+        </Servico>
+        <PrestadorServico>
+          <IdentificacaoPrestador>
+            <Cnpj>05020356000100</Cnpj>
+            <InscricaoMunicipal>3304434</InscricaoMunicipal>
+          </IdentificacaoPrestador>
+          <RazaoSocial>BID COMERCIO E SERVICOS EM TECNOLOGIA DA INFORMACAO LTD</RazaoSocial>
+          <Endereco>
+            <Endereco>AV MARQUES DE OLINDA 296</Endereco>
+            <Numero>296</Numero>
+            <Bairro>RECIFE</Bairro>
+            <CodigoMunicipio>2611606</CodigoMunicipio>
+            <Uf>PE</Uf>
+            <Cep>50030000</Cep>
+          </Endereco>
+          <Contato>
+            <Telefone>1-3339-6786</Telefone>
+            <Email>administrativo@bidweb.com.br</Email>
+          </Contato>
+        </PrestadorServico>
+        <TomadorServico>
+          <IdentificacaoTomador>
+            <CpfCnpj>
+              <Cnpj>92685833000151</Cnpj>
+            </CpfCnpj>
+          </IdentificacaoTomador>
+          <RazaoSocial>ASSOCIACAO HOSPITALAR MOINHOS DE VENTO</RazaoSocial>
+          <Endereco>
+            <Endereco>R RAMIRO BARCELOS 910</Endereco>
+            <Numero>910</Numero>
+            <Bairro>MOINHOS DE VENTO</Bairro>
+            <CodigoMunicipio>4314902</CodigoMunicipio>
+            <Uf>RS</Uf>
+            <Cep>90035001</Cep>
+          </Endereco>
+          <Contato>
+            <Email>jair.barboza@hmv.org.br</Email>
+          </Contato>
+        </TomadorServico>
+        <OrgaoGerador>
+          <CodigoMunicipio>2611606</CodigoMunicipio>
+          <Uf>PE</Uf>
+        </OrgaoGerador>
+      </InfNfse>
+    </Nfse>
+  </CompNfse>
+</GerarNfseResposta>

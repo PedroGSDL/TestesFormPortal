@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<NFe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.barretos.sigiss.com.br">
+  <InscricaoPrestador>1656</InscricaoPrestador>
+  <IEPrestador>isenta</IEPrestador>
+  <CPFCNPJPrestador>
+    <CNPJ>49150352000112</CNPJ>
+  </CPFCNPJPrestador>
+  <ChaveNFe>
+    <NumeroNFe>5787</NumeroNFe>
+    <SerieNFe>1</SerieNFe>
+    <CodigoVerificacao>2CGIP2WI</CodigoVerificacao>
+    <DataEmissaoNFe>2024-04-04</DataEmissaoNFe>
+  </ChaveNFe>
+  <RazaoSocialPrestador>FUNDACAO PIO XII</RazaoSocialPrestador>
+  <EnderecoPrestador>
+    <Logradouro>20</Logradouro>
+    <NumeroEndereco>00221</NumeroEndereco>
+    <ComplementoEndereco></ComplementoEndereco>
+    <Bairro>CENTRO </Bairro>
+    <Cidade>BARRETOS</Cidade>
+    <UF>SP</UF>
+    <CEP>14780070</CEP>
+  </EnderecoPrestador>
+  <TelefonePrestador>17 33216603</TelefonePrestador>
+  <EmailPrestador>financeiro3hcancerbarretos.com.br</EmailPrestador>
+  <StatusNFe>Ativa</StatusNFe>
+  <TributacaoNFe>Isenta</TributacaoNFe>
+  <OpcaoSimples>NÃO</OpcaoSimples>
+  <ValorServicos>937,80</ValorServicos>
+  <ValorBase>937,80</ValorBase>
+  <CodigoServico>201</CodigoServico>
+  <AliquotaServicos>0,00</AliquotaServicos>
+  <ValorISS>0,00</ValorISS>
+  <ISSRetido>NÃO</ISSRetido>
+  <pis></pis>
+  <cofins></cofins>
+  <irrf></irrf>
+  <csll></csll>
+  <InscricaoTomador>-21923</InscricaoTomador>
+  <CPFCNPJTomador>
+    <CPF>92685833000151</CPF>
+  </CPFCNPJTomador>
+  <IETomador></IETomador>
+  <RazaoSocialTomador>ASSOCIAÇÃO HOSPITALAR MOINHOS DE VENTO</RazaoSocialTomador>
+  <EnderecoTomador>
+    <Logradouro>RUA RAMIRO BARCELOS</Logradouro>
+    <NumeroEndereco>910</NumeroEndereco>
+    <ComplementoEndereco></ComplementoEndereco>
+    <Bairro>INDEPENDÊNCIA</Bairro>
+    <Cidade>PORTO ALEGRE</Cidade>
+    <UF>RS</UF>
+    <CEP></CEP>
+  </EnderecoTomador>
+  <TelefoneTomador></TelefoneTomador>
+  <EmailTomador>reservasbarretosparkhotel.com.br</EmailTomador>
+  <Discriminacao>Atividade de inclusão de participantes no Projeto Onco-Genomas Brasil: Mapeamento do Câncer de Mama e de Próstata no sistema público brasileiro no mês de Agosto de 2023, referente a Ordem de Serviço 1149.
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Efetuar crédito: Banco Brasil - 001 Agência: 3371-5 Conta: 6343-6
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+A Fundação PIO XII declara e informa que preenche cumulativamente todos os requisitos para NÃO-INCIDÊNCIA DE IRPJ, COFINS, CSLL E CONTRIBUIÇÃO PARA PIS/PASEP P/ INSTITUIÇÃO DE EDUCAÇÃO E DE ASSISTÊNCIA SOCIAL, SEM FINS LUCRATIVOS, a que se refere o art. 64 da Lei nº. 9.430, de 27 de dezembro de 1996. Esta entidade assume o compromisso de informar à Secretaria da Receita Federal e à unidade pagadora, imediatamente, eventual desenquadramento da presente situação e está ciente de que a falsidade na prestação destas informações, sem prejuízo do disposto no art.32 da Lei nº 9.430, de 1996, o sujeitará, juntamente com as demais pessoas que para ele concorrem às penalidades previstas na legislação criminal e tributária, relativas à falsidade ideológica (art. 299 do
+Código Penal) e ao crime contra a ordem tributária (art. 1º da Lei nº 8.137, de 27 de dezembro de 1990). Lei nº 12741/2012 Alíquota 0 Conforme decretos: Federal 90935/85 (Revogado pela lei 13204/2015) Estadual 2.224/78 Municipal 3.166/78.</Discriminacao>
+</NFe>

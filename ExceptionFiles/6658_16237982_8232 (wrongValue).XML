@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ns2:CompNfse xmlns:ns2="http://www.giss.com.br/tipos-v2_04.xsd" xmlns:ns3="http://www.w3.org/2000/09/xmldsig#">
+  <ns2:Nfse versao="2.00">
+    <ns2:InfNfse Id="16050809">
+      <ns2:Numero>8232</ns2:Numero>
+      <ns2:CodigoVerificacao>LFYCGDMMS</ns2:CodigoVerificacao>
+      <ns2:DataEmissao>2024-06-04</ns2:DataEmissao>
+      <ns2:ValoresNfse>
+        <ns2:BaseCalculo>1921.08</ns2:BaseCalculo>
+        <ns2:Aliquota>5.00</ns2:Aliquota>
+        <ns2:ValorIss>0.00</ns2:ValorIss>
+        <ns2:ValorLiquidoNfse>1921.08</ns2:ValorLiquidoNfse>
+      </ns2:ValoresNfse>
+      <ns2:DescricaoCodigoTributacaoMunicipio>7220700</ns2:DescricaoCodigoTributacaoMunicipio>
+      <ns2:PrestadorServico>
+        <ns2:RazaoSocial>FUNDACAO UNIVERSITARIA DE DESENV DE EXTENSAO E PESQUISA</ns2:RazaoSocial>
+        <ns2:NomeFantasia>DEFENSORIA PUBLICA DA UNIAO</ns2:NomeFantasia>
+        <ns2:Endereco>
+          <ns2:Endereco>RUA MINISTRO SALGADO FILHO</ns2:Endereco>
+          <ns2:Numero>78</ns2:Numero>
+          <ns2:Complemento>COMPLEMENTO: LOTE: 19;LOTEAMENTO: ARNON</ns2:Complemento>
+          <ns2:Bairro>PITANGUINHA</ns2:Bairro>
+          <ns2:CodigoMunicipio>2704302</ns2:CodigoMunicipio>
+          <ns2:Uf>AL</ns2:Uf>
+          <ns2:Cep>57052140</ns2:Cep>
+        </ns2:Endereco>
+        <ns2:Contato>
+          <ns2:Telefone>82999402408</ns2:Telefone>
+        </ns2:Contato>
+      </ns2:PrestadorServico>
+      <ns2:OrgaoGerador>
+        <ns2:CodigoMunicipio>2704302</ns2:CodigoMunicipio>
+        <ns2:Uf>AL</ns2:Uf>
+      </ns2:OrgaoGerador>
+      <ns2:DeclaracaoPrestacaoServico>
+        <ns2:InfDeclaracaoPrestacaoServico Id="16050809">
+          <ns2:Competencia>2024-06-04</ns2:Competencia>
+          <ns2:Servico>
+            <ns2:Valores>
+              <ns2:ValorServicos>1921.08</ns2:ValorServicos>
+              <ns2:ValorDeducoes>0.00</ns2:ValorDeducoes>
+              <ns2:ValorPis>0.00</ns2:ValorPis>
+              <ns2:ValorCofins>0.00</ns2:ValorCofins>
+              <ns2:ValorInss>0.00</ns2:ValorInss>
+              <ns2:ValorIr>0.00</ns2:ValorIr>
+              <ns2:ValorCsll>0.00</ns2:ValorCsll>
+              <ns2:OutrasRetencoes>0.00</ns2:OutrasRetencoes>
+              <ns2:ValTotTributos>0.00</ns2:ValTotTributos>
+              <ns2:ValorIss>0.00</ns2:ValorIss>
+              <ns2:Aliquota>5.00</ns2:Aliquota>
+              <ns2:DescontoIncondicionado>0.00</ns2:DescontoIncondicionado>
+              <ns2:DescontoCondicionado>0.00</ns2:DescontoCondicionado>
+            </ns2:Valores>
+            <ns2:IssRetido>2</ns2:IssRetido>
+            <ns2:ItemListaServico>2.01</ns2:ItemListaServico>
+            <ns2:CodigoTributacaoMunicipio>7220700</ns2:CodigoTributacaoMunicipio>
+            <ns2:Discriminacao>Pagamento referente ao estudo Avert-12 Centro Maceió. Ordem de Serviço 6658.  
+Projeto 1905 Avert Dose
+
+DADOS BANCARIOS
+BANCO DO BRASIL
+AGÊNCIA 3557-2
+C/C 9210-X
+
+Não haverá retenção do IRRF, CSLL, conforme o art. 12 (caput) e § 2°, art. 15, da Lei n° 9.532/1997, do COFINS E PIS/PASEP, conforme o art. 14, X e art. VII
+da MP 2158-35/01, bem como do ISS, conforme o art. 150, inciso VI, alínea ""c"" da Constituição Federal."</ns2:Discriminacao>
+            <ns2:CodigoMunicipio>2704302</ns2:CodigoMunicipio>
+            <ns2:CodigoPais>0076</ns2:CodigoPais>
+            <ns2:ExigibilidadeISS>1</ns2:ExigibilidadeISS>
+            <ns2:MunicipioIncidencia>2704302</ns2:MunicipioIncidencia>
+          </ns2:Servico>
+          <ns2:Prestador>
+            <ns2:CpfCnpj>
+              <ns2:Cnpj>12449880000167</ns2:Cnpj>
+            </ns2:CpfCnpj>
+            <ns2:InscricaoMunicipal>900094440</ns2:InscricaoMunicipal>
+          </ns2:Prestador>
+          <ns2:TomadorServico>
+            <ns2:IdentificacaoTomador>
+              <ns2:CpfCnpj>
+                <ns2:Cnpj>92685833000151</ns2:Cnpj>
+              </ns2:CpfCnpj>
+            </ns2:IdentificacaoTomador>
+            <ns2:RazaoSocial>ASSOCIACAO HOSPITALAR MOINHOS DE VENTO</ns2:RazaoSocial>
+            <ns2:Endereco>
+              <ns2:Endereco>RUA RAMIRO BARCELOS</ns2:Endereco>
+              <ns2:Numero>910</ns2:Numero>
+              <ns2:Bairro>FLORESTA</ns2:Bairro>
+              <ns2:CodigoMunicipio>4314902</ns2:CodigoMunicipio>
+              <ns2:Uf>RS</ns2:Uf>
+              <ns2:Cep>90035001</ns2:Cep>
+            </ns2:Endereco>
+            <ns2:Contato>
+              <ns2:Telefone>5133143545</ns2:Telefone>
+            </ns2:Contato>
+          </ns2:TomadorServico>
+          <ns2:OptanteSimplesNacional>2</ns2:OptanteSimplesNacional>
+          <ns2:IncentivoFiscal>2</ns2:IncentivoFiscal>
+        </ns2:InfDeclaracaoPrestacaoServico>
+      </ns2:DeclaracaoPrestacaoServico>
+    </ns2:InfNfse>
+  </ns2:Nfse>
+</ns2:CompNfse>

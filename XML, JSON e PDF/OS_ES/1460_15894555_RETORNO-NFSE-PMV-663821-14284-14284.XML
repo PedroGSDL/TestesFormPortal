@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConsultarNfseFaixaResposta xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.abrasf.org.br/nfse.xsd">
+  <ListaNfse>
+    <CompNfse>
+      <Nfse>
+        <InfNfse>
+          <Numero>14284</Numero>
+          <CodigoVerificacao>F891013E-</CodigoVerificacao>
+          <DataEmissao>2024-04-19</DataEmissao>
+          <ValoresNfse>
+            <BaseCalculo>3388.00</BaseCalculo>
+            <Aliquota>0.00</Aliquota>
+            <ValorIss>0.00</ValorIss>
+            <ValorLiquidoNfse>3388.00</ValorLiquidoNfse>
+          </ValoresNfse>
+          <ValorCredito>0.00</ValorCredito>
+          <PrestadorServico>
+            <IdentificacaoPrestador>
+              <CpfCnpj>
+                <Cnpj>02980103000190</Cnpj>
+              </CpfCnpj>
+              <InscricaoMunicipal>663821</InscricaoMunicipal>
+            </IdentificacaoPrestador>
+            <RazaoSocial>FUNDACAO ESPIRITO SANTENSE DE TECNOLOGIA - FEST</RazaoSocial>
+            <NomeFantasia>FEST</NomeFantasia>
+            <Endereco>
+              <Endereco>AVENIDA FERNANDO FERRARI</Endereco>
+              <Numero>1080</Numero>
+              <Complemento>SALA  301. 302 E 303</Complemento>
+              <Bairro>MATA DA PRAIA</Bairro>
+              <CodigoMunicipio>3205309</CodigoMunicipio>
+              <Cep>29066380</Cep>
+            </Endereco>
+            <Contato>
+              <Telefone>(27)3345-7555</Telefone>
+              <Email>CURSOS@FEST.ORG.BR</Email>
+            </Contato>
+          </PrestadorServico>
+          <OrgaoGerador>
+            <CodigoMunicipio>3205309</CodigoMunicipio>
+            <Uf>ES</Uf>
+          </OrgaoGerador>
+          <DeclaracaoPrestacaoServico>
+            <InfDeclaracaoPrestacaoServico Id="9d088ee6-66c4-472e-aae4-78f148d1b662">
+              <Competencia>2024-04-19</Competencia>
+              <Servico>
+                <Valores>
+                  <ValorServicos>3388.00</ValorServicos>
+                  <ValorDeducoes>0.00</ValorDeducoes>
+                  <ValorPis>0.00</ValorPis>
+                  <ValorCofins>0.00</ValorCofins>
+                  <ValorInss>0.00</ValorInss>
+                  <ValorIr>0.00</ValorIr>
+                  <ValorCsll>0.00</ValorCsll>
+                  <OutrasRetencoes>0.00</OutrasRetencoes>
+                  <ValorIss>0.00</ValorIss>
+                  <Aliquota>0.00</Aliquota>
+                  <DescontoCondicionado>0.00</DescontoCondicionado>
+                </Valores>
+                <IssRetido>2</IssRetido>
+                <ResponsavelRetencao>1</ResponsavelRetencao>
+                <ItemListaServico>02.01</ItemListaServico>
+                <CodigoCnae>7210000</CodigoCnae>
+                <Discriminacao>PAGAMENTO REFERENTE A: &lt;br /&gt;&lt;br /&gt;ORDEM DE SERVIÇO: Nº 1460&lt;br /&gt;&lt;br /&gt;Projeto: VigiaSUS&lt;br /&gt;Centro de Custo: 990&lt;br /&gt;ID SSI: 14722&lt;br /&gt;Nº contrato: 12005&lt;br /&gt; &lt;br /&gt;FUNDAÇÃO IMUNE DE IMPOSTO DE RENDA DEVIDO AO ARTIGO 150, INCISO VI-C DA CONSTITUIÇÃO FEDERAL.&lt;br /&gt;&lt;br /&gt;Dados bancários:&lt;br /&gt;&lt;br /&gt;Banco do Brasil.&lt;br /&gt;Agência: 4292-7.&lt;br /&gt;Conta Corrente: 122.697-5&lt;br /&gt;&lt;br /&gt; PROJETO FEST: 1078.&lt;br /&gt;</Discriminacao>
+                <CodigoMunicipio>3205309</CodigoMunicipio>
+                <ExigibilidadeISS>5</ExigibilidadeISS>
+                <MunicipioIncidencia>9999999</MunicipioIncidencia>
+              </Servico>
+              <Tomador>
+                <IdentificacaoTomador>
+                  <CpfCnpj>
+                    <Cnpj>92685833000151</Cnpj>
+                  </CpfCnpj>
+                </IdentificacaoTomador>
+                <RazaoSocial>ASSOCIACAO HOSPITALAR MOINHOS DE VENTO </RazaoSocial>
+                <Endereco>
+                  <Endereco>RUA RAMIRO BARCELOS</Endereco>
+                  <Numero>910</Numero>
+                  <Bairro>MOINHOS DE VENTO</Bairro>
+                  <CodigoMunicipio>4314902</CodigoMunicipio>
+                  <Uf>RS</Uf>
+                  <CodigoPais>1058</CodigoPais>
+                  <Cep>90035001</Cep>
+                </Endereco>
+              </Tomador>
+              <OptanteSimplesNacional>2</OptanteSimplesNacional>
+              <IncentivoFiscal>2</IncentivoFiscal>
+            </InfDeclaracaoPrestacaoServico>
+          </DeclaracaoPrestacaoServico>
+        </InfNfse>
+      </Nfse>
+    </CompNfse>
+    <ProximaPagina>0</ProximaPagina>
+  </ListaNfse>
+</ConsultarNfseFaixaResposta>

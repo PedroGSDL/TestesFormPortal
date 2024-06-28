@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTcCompNfse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <tcCompNfse>
+    <Nfse>
+      <InfNfse>
+        <Numero>48300</Numero>
+        <CodigoVerificacao>K73QZ10S</CodigoVerificacao>
+        <DataEmissao>2024-05-02</DataEmissao>
+        <DataEmissaoRps>0001-01-01T00:00:00</DataEmissaoRps>
+        <NaturezaOperacao>4</NaturezaOperacao>
+        <RegimeEspecialTributacao>0</RegimeEspecialTributacao>
+        <OptanteSimplesNacional>2</OptanteSimplesNacional>
+        <IncentivadorCultural>2</IncentivadorCultural>
+        <Competencia>2024-05-02</Competencia>
+        <NfseSubstituida>0</NfseSubstituida>
+        <Servico>
+          <Valores>
+            <ValorServicos>4326.16</ValorServicos>
+            <ValorDeducoes>0.00</ValorDeducoes>
+            <ValorPis>0.00</ValorPis>
+            <ValorCofins>0.00</ValorCofins>
+            <ValorInss>0.00</ValorInss>
+            <ValorIr>0.00</ValorIr>
+            <ValorCsll>0.00</ValorCsll>
+            <IssRetido>2</IssRetido>
+            <ValorIss>0.00</ValorIss>
+            <ValorIssRetido>0.00</ValorIssRetido>
+            <OutrasRetencoes>0.00</OutrasRetencoes>
+            <BaseCalculo>4326.16</BaseCalculo>
+            <Aliquota>0.00</Aliquota>
+            <ValorLiquidoNfse>4326.16</ValorLiquidoNfse>
+            <DescontoIncondicionado>0.00</DescontoIncondicionado>
+            <DescontoCondicionado>0.00</DescontoCondicionado>
+          </Valores>
+          <ItemListaServico>0403</ItemListaServico>
+          <CodigoCnae>0</CodigoCnae>
+          <Discriminacao>Pagamento referente a visitas do estudo VIGIASUS - PI Murilo Luz
+Número Ordem de Serviço: 1458
+Setor/projeto: 990
+
+Banco do Brasil S/A
+Agência 3404-5
+C/C 110263-X
+
+Vencimento: 04/11/2023</Discriminacao>
+          <CodigoMunicipio>0</CodigoMunicipio>
+        </Servico>
+        <ValorCredito>0</ValorCredito>
+        <PrestadorServico>
+          <IdentificacaoPrestador>
+            <Cnpj>76591049000128</Cnpj>
+            <InscricaoMunicipal>00608363</InscricaoMunicipal>
+          </IdentificacaoPrestador>
+          <NomeFantasia>LIGA PARANAENSE DE COMBATE AO CANCER</NomeFantasia>
+          <Endereco>
+            <Endereco>R. DOUTOR OVANDE AMARAL</Endereco>
+            <Numero>201</Numero>
+            <Complemento>TR</Complemento>
+            <Bairro>JARDIM DAS AMÉRICAS</Bairro>
+            <CodigoMunicipio>4106902</CodigoMunicipio>
+            <Uf>PR</Uf>
+            <Cep>81520060</Cep>
+          </Endereco>
+        </PrestadorServico>
+        <TomadorServico>
+          <IdentificacaoTomador>
+            <CpfCnpj>
+              <Cnpj>92685833000151</Cnpj>
+            </CpfCnpj>
+          </IdentificacaoTomador>
+          <RazaoSocial>Associação Hospitalar Moinhos de Vento</RazaoSocial>
+          <Endereco>
+            <Endereco>Rua: Ramiro Barcelos</Endereco>
+            <Numero>910</Numero>
+            <Complemento />
+            <Bairro>Moinhos de Vento</Bairro>
+            <CodigoMunicipio>4314902</CodigoMunicipio>
+            <Uf>RS</Uf>
+            <Cep>90035001</Cep>
+          </Endereco>
+          <Contato>
+            <Email />
+          </Contato>
+        </TomadorServico>
+      </InfNfse>
+    </Nfse>
+  </tcCompNfse>
+</ArrayOfTcCompNfse>

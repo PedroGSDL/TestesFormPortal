@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompNfse xmlns="http://www.abrasf.org.br/nfse.xsd">
+  <Nfse versao="1.00">
+    <InfNfse Id="nfse">
+      <Numero>2798</Numero>
+      <CodigoVerificacao>YYH4LDPK</CodigoVerificacao>
+      <DataEmissao>2024-06-06</DataEmissao>
+      <NaturezaOperacao>1</NaturezaOperacao>
+      <OptanteSimplesNacional>2</OptanteSimplesNacional>
+      <IncentivadorCultural>2</IncentivadorCultural>
+      <Competencia>2024-06-06</Competencia>
+      <Servico>
+        <Valores>
+          <ValorServicos>6747.91</ValorServicos>
+          <ValorPis>43.86</ValorPis>
+          <ValorCofins>202.44</ValorCofins>
+          <ValorIr>101.22</ValorIr>
+          <ValorCsll>67.48</ValorCsll>
+          <IssRetido>0</IssRetido>
+          <ValorIss>195.68</ValorIss>
+          <OutrasRetencoes>0.00</OutrasRetencoes>
+          <BaseCalculo>6747.91</BaseCalculo>
+          <Aliquota>2.9</Aliquota>
+          <ValorLiquidoNfse>6332.91</ValorLiquidoNfse>
+        </Valores>
+        <ItemListaServico>4.01</ItemListaServico>
+        <CodigoTributacaoMunicipio>04030</CodigoTributacaoMunicipio>
+        <Discriminacao>ELEGIBILIDADE, REAJUSTE 2023||PAGAMENTO CONFORME BOLETO|Ref. Set/2023 - Vencto. 08/10/2023||Valor Liquido R$ 6.332,91</Discriminacao>
+        <CodigoMunicipio>3130705</CodigoMunicipio>
+      </Servico>
+      <PrestadorServico>
+        <IdentificacaoPrestador>
+          <Cnpj>13938145000180</Cnpj>
+          <InscricaoMunicipal>47650745</InscricaoMunicipal>
+        </IdentificacaoPrestador>
+        <RazaoSocial>OVERMIND CONSULTORIA E SERVICOS EM INFORMATICA SOCIEDADE EMPR</RazaoSocial>
+        <Endereco>
+          <Endereco>DOS JURUPIS</Endereco>
+          <Numero>900, APT   71</Numero>
+          <Bairro>INDIANOPOLIS</Bairro>
+          <CodigoMunicipio>3130705</CodigoMunicipio>
+          <Uf>AL</Uf>
+          <Cep>04088002</Cep>
+        </Endereco>
+      </PrestadorServico>
+      <TomadorServico>
+        <IdentificacaoTomador>
+          <CpfCnpj>
+            <Cnpj>92685833000151</Cnpj>done
+               </CpfCnpj>
+          <InscricaoMunicipal></InscricaoMunicipal>
+        </IdentificacaoTomador>
+        <RazaoSocial>ASSOCIAÇÃO HOSPITALAR MOINHOS DE VENTO</RazaoSocial>
+        <Endereco>
+          <Endereco>R Ramiro Barcelos</Endereco>
+          <Numero>910</Numero>
+          <Bairro>Moinhos de Vento</Bairro>
+          <CodigoMunicipio>4314902</CodigoMunicipio>
+          <Uf>RS</Uf>
+          <Cep>90035001</Cep>
+        </Endereco>
+      </TomadorServico>
+      <OrgaoGerador>
+        <CodigoMunicipio>3550308</CodigoMunicipio>
+        <Uf>RS</Uf>
+      </OrgaoGerador>
+    </InfNfse>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="NfseAssSMF_nfse">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#nfse">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>rCRG+MHysXNKPce/XDtptAB1aU8=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue></SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate></X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="NfseAssPrestador_nfse">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#nfse">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>rCRG+MHysXNKPce/XDtptAB1aU8=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>cL5GAGNVLq6seLyGGMSL30a1y0/lhzlHxF2eZWDuIp8yaIY6bxdGc24DMAVOx9UnPpZIIm/hBO1M8BqzZT5HugxrkLokId2HjRExBjGBx611NVhy8msXPCT653hBTgnAe0pX9Hs6lrxRVmRYB9IKQs5t9dgyHotfT8em3pvHsxpJk2AZi1SomKu5rON/edyyx9eX8lnH4IRjtOmx/9zvigICapL6E1XcLDAAgHMK4ITptQ/CdtlACDfCB6nazv7TEpT3Lz7M69MDikpFOqYGCK4+7M/+T618MmRnCcGlbvkBbB13fFaV449EyWulJOMxlwEa05ySVM8oYlBeXs73uA==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </Nfse>
+</CompNfse>

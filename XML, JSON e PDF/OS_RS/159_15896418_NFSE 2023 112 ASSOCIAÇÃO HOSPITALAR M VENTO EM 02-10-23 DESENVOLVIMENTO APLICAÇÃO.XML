@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompNfse xmlns="http://www.abrasf.org.br/nfse.xsd">
+  <Nfse xmlns="http://www.abrasf.org.br/nfse.xsd" versao="1.00">
+    <InfNfse Id="nfse">
+      <Numero>202300000000112</Numero>
+      <CodigoVerificacao>4fda34b3</CodigoVerificacao>
+      <DataEmissao>2024-06-03</DataEmissao>
+      <NaturezaOperacao>1</NaturezaOperacao>
+      <OptanteSimplesNacional>2</OptanteSimplesNacional>
+      <IncentivadorCultural>2</IncentivadorCultural>
+      <Competencia>2024-06-03</Competencia>
+      <Servico>
+        <Valores>
+          <ValorServicos>20160.00</ValorServicos>
+          <ValorPis>131.04</ValorPis>
+          <ValorCofins>604.80</ValorCofins>
+          <ValorIr>302.40</ValorIr>
+          <ValorCsll>201.60</ValorCsll>
+          <IssRetido>1</IssRetido>
+          <ValorIss>403.20</ValorIss>
+          <ValorIssRetido>403.20</ValorIssRetido>
+          <BaseCalculo>20160.00</BaseCalculo>
+          <Aliquota>0.02</Aliquota>
+          <ValorLiquidoNfse>18516.96</ValorLiquidoNfse>
+        </Valores>
+        <ItemListaServico>1.07</ItemListaServico>
+        <CodigoTributacaoMunicipio>10700100</CodigoTributacaoMunicipio>
+        <Discriminacao>Serviço de desenvolvimento e implantação de Aplicação de RPA para Automação de Criação de Atendimento.||Valor do Serviço = R$ 20.160,00|Valor total da NF = R$ 20.160,00||Número Ordem de Serviço: 159||Vencimento: até 17/11/2023||Dados para pagamento:|Banrisul = cód: 041|Ag. Otávio Rocha = cód: 0062|Conta nº 06.038830.06|CNPJ 00.363.645/0001-99|</Discriminacao>
+        <CodigoMunicipio>4314902</CodigoMunicipio>
+      </Servico>
+      <PrestadorServico>
+        <IdentificacaoPrestador>
+          <Cnpj>00363645000199</Cnpj>
+          <InscricaoMunicipal>15348822</InscricaoMunicipal>
+        </IdentificacaoPrestador>
+        <RazaoSocial>POWER IMAGING PROCESSAMENTO DE DADOS E IMAGENS LTDA</RazaoSocial>
+        <Endereco>
+          <Endereco>R   CARLOS VON KOSERITZ</Endereco>
+          <Numero>456</Numero>
+          <Bairro>SAO JOAO</Bairro>
+          <CodigoMunicipio>4314902</CodigoMunicipio>
+          <Uf>RS</Uf>
+          <Cep>90540030</Cep>
+        </Endereco>
+        <Contato>
+          <Telefone>5133370061</Telefone>
+          <Email>valter.rossi@powerbrasil.com.br</Email>
+        </Contato>
+      </PrestadorServico>
+      <TomadorServico>
+        <IdentificacaoTomador>
+          <CpfCnpj>
+            <Cnpj>92685833000151</Cnpj>
+          </CpfCnpj>
+          <InscricaoMunicipal>00178829</InscricaoMunicipal>
+        </IdentificacaoTomador>
+        <RazaoSocial>ASSOCIAÇÃO HOSPITALAR MOINHOS DE VENTO</RazaoSocial>
+        <Endereco>
+          <Endereco>R RAMIRO BARCELOS</Endereco>
+          <Numero>910</Numero>
+          <Bairro>MOINHOS VENTO</Bairro>
+          <CodigoMunicipio>4314902</CodigoMunicipio>
+          <Uf>RS</Uf>
+          <Cep>90035001</Cep>
+        </Endereco>
+      </TomadorServico>
+      <OrgaoGerador>
+        <CodigoMunicipio>4314902</CodigoMunicipio>
+        <Uf>RS</Uf>
+      </OrgaoGerador>
+    </InfNfse>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="NfseAssSMF_nfse">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#nfse">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>G/kNMy1JeEpe+ptMUn8gPCqGwOY=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>RQTMtNGy/G9WR0yz32uHoleD8VEiWvhMqE/fXW+VHRvmvIZ16hwmFIS3zKWhCRKQVXynRtB8z8bM
+j0J6uzAJcVGWV4nJRNV+G0T8hLafQ5ILAqHInnhmSH6r/FJx74/p3cYCy79Fs/YYN9bt0o07dFrz
+0fIGvjVQArOgV2hZS8Tt+f6wLNLWVPLjAIvCnV9oVre7stgXnvBMUn6kVyvKVum/uSbcYLLgeEx/
+AGmrt7mDV41ykYGdW715KWGHhSSSl+YEoM4NPCcIrvXeWLkyqxIHy+cKWyN5OWHRtFju9pzXyAN5
+Zre3C6EepjVvYftJ9f0MQalZMEcahzCaAL3nDQ==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIIHQjCCBSqgAwIBAgIIHBQiESJtUnowDQYJKoZIhvcNAQELBQAwWTELMAkGA1UEBhMCQlIxEzAR
+BgNVBAoTCklDUC1CcmFzaWwxFTATBgNVBAsTDEFDIFNPTFVUSSB2NTEeMBwGA1UEAxMVQUMgU09M
+VVRJIE11bHRpcGxhIHY1MB4XDTIyMTEyMzEyMzkwMFoXDTIzMTEyMzEyMzkwMFowgd0xCzAJBgNV
+BAYTAkJSMRMwEQYDVQQKEwpJQ1AtQnJhc2lsMQswCQYDVQQIEwJSUzEPMA0GA1UEBxMGQ2Fub2Fz
+MR4wHAYDVQQLExVBQyBTT0xVVEkgTXVsdGlwbGEgdjUxFzAVBgNVBAsTDjQzMTE3NTYwMDAwMTMz
+MRMwEQYDVQQLEwpQcmVzZW5jaWFsMRowGAYDVQQLExFDZXJ0aWZpY2FkbyBQSiBBMTExMC8GA1UE
+AxMoTVVOSUNJUElPIERFIFBPUlRPIEFMRUdSRTo5Mjk2MzU2MDAwMDE2MDCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAILPPACKjzCynPvIUy5GCZzzBpL5aLnukxaN4jXWwZ6KMoozyUVW
+/PjXyWD+onxIcbBLwNEC/N9/7/XcH0aTBGaF0tpZTf2Th54eBAlOIokoj4iGDTVZcqChHbYl5mqA
+R4jLMkrXSMGMhVi6DIO0iri77xugQeqjjQPzmaTR+9CNo14KXH0CmXo/O11qkCps2nHsa4JcnXs4
+eA+22kp7T49ht7Iv7+NV69qQcBAyCNnpFtcADc0WsfI/QcbDlhkfLgFIj8+d3Ud7NUZgrwH5zfGX
+3szN5F14kkL5nSYqE0bIW8TL3G+/8yMg1ELHDS/5a9OXKAGG0jbd4ilbzg6GuoUCAwEAAaOCAocw
+ggKDMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUxVLtJYAJ35yCyJ9Hxt20XzHdubEwVAYIKwYBBQUH
+AQEESDBGMEQGCCsGAQUFBzAChjhodHRwOi8vY2NkLmFjc29sdXRpLmNvbS5ici9sY3IvYWMtc29s
+dXRpLW11bHRpcGxhLXY1LnA3YjCBwgYDVR0RBIG6MIG3gR1waWV0cm8uYmlhc3V6QHByb2NlbXBh
+LmNvbS5icqAjBgVgTAEDAqAaExhTRUJBU1RJQU8gREUgQVJBVUpPIE1FTE+gGQYFYEwBAwOgEBMO
+OTI5NjM1NjAwMDAxNjCgPQYFYEwBAwSgNBMyMjQwNzE5NTgxNTk2OTc5NzEyMDAwMDAwMDAwMDAw
+MDAwMDAzMDEzMTI4MjQ4U1NQUlOgFwYFYEwBAwegDhMMMDAwMDAwMDAwMDAwMF0GA1UdIARWMFQw
+UgYGYEwBAgEmMEgwRgYIKwYBBQUHAgEWOmh0dHA6Ly9jY2QuYWNzb2x1dGkuY29tLmJyL2RvY3Mv
+ZHBjLWFjLXNvbHV0aS1tdWx0aXBsYS5wZGYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwME
+MIGMBgNVHR8EgYQwgYEwPqA8oDqGOGh0dHA6Ly9jY2QuYWNzb2x1dGkuY29tLmJyL2xjci9hYy1z
+b2x1dGktbXVsdGlwbGEtdjUuY3JsMD+gPaA7hjlodHRwOi8vY2NkMi5hY3NvbHV0aS5jb20uYnIv
+bGNyL2FjLXNvbHV0aS1tdWx0aXBsYS12NS5jcmwwHQYDVR0OBBYEFB+Rn6t40RgtrB1XfjvrjPCk
+E1YJMA4GA1UdDwEB/wQEAwIF4DANBgkqhkiG9w0BAQsFAAOCAgEAP3V3aualS/bPF/7lG2HMkluZ
+9jge0dJw8P19pR1779lHlO0LIPgB7ksxyHLTqEnjoR7KevAoXNN+395Abv68W6jfmGj6YwsT0+d/
+O+O7TAcT1/TxtHB4YamOYpvGGdifeZkAxxFpdcipulh36jF9ZA0X8KYnfF7yd2CSM+yCqKg43tq1
+NW4Ub6N05saRK8mDj8iLHSZ1jpsPyuFLG3axOsDfDAk87TdonKG8Rx58xdofmrZmxmM3DtFd+DOv
+E4GPX9JYv4KHKYvxqFjnRBBG2FMvhRM/Q4G3E0OLoKA/AbutsldMyyvNZWd5BUZ8pUn+SMENg/r/
+ossSAL9HEEjNuoz2ub2NC2M9WJcjHSOJiWmILqefZG9FcwqF/j+hUZ5wah2pqezYKz5axznmpESo
+YVwTs55kl9PXzYlroMJKuzcc9UlXHeUtFxwEyyTu2Dr7sIR5CmCYJIIMwX/yrriNRu3+Di76XXwB
+w+Np7UOI7tNirUzBiwfvnpS/ndQNva6tcp38RSD9uBMb4uasjdrgCSf/3p22003/Yguo4XHiKCiw
+W2XAO4d5NU1h/MTrjJMrn+kT+V7piyqV6I5r/tye9PIrbyGtb2ukfARClRXrZ4TlqHHfF590SMUd
+EwrgLD2L9DS+be7aytEPOunSfj5EIJbiwxiXY1Wegtul7+pMm8c=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="NfseAssPrestador_nfse">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#nfse">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>G/kNMy1JeEpe+ptMUn8gPCqGwOY=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>iEL7E7QcHzhg393nokQ4TmHxfGfb/cBV2sAVLA8+zdFcRAjvA0Rr/DnJyJyBbEFpR2XPfMQ41sar6DJxbSIUX8p38a+gT58B9EZ11Ykl5MrB0gcNlzC5ToAMZCFpXqPlOS0JgW+aMBlT9nZ+bdS3b/+gX+n6YD05Cu5ukeJBlhXMmO7mnY658Fwra43m0rM7y9cKv9ESZUjkfiuiilIsZauNbbVPdqagnGC4/C2TswmS4vBNL4sGIAzRBzYB7kfWFVOd3zGIDQ3vDYt+0JAamGs6Oi+v/7S/cB6QICNiQlE3hJL66xzF3tyyGWpudygj/OcR2bT+GnhPZNEff2iUSw==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </Nfse>
+</CompNfse>

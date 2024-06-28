@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConsultarNfseResposta xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.abrasf.org.br/ABRASF/arquivos/nfse.xsd">
+  <ListaNfse>
+    <CompNfse>
+      <Nfse>
+        <InfNfse>
+          <Numero>2710</Numero>
+          <CodigoVerificacao>FKSR-IGLP</CodigoVerificacao>
+          <DataEmissao>2024-04-05</DataEmissao>
+          <IdentificacaoRps>
+            <Numero>2710</Numero>
+            <Serie>A</Serie>
+            <Tipo>1</Tipo>
+          </IdentificacaoRps>
+          <DataEmissaoRps>2023-09-01</DataEmissaoRps>
+          <NaturezaOperacao>1</NaturezaOperacao>
+          <OptanteSimplesNacional>2</OptanteSimplesNacional>
+          <IncentivadorCultural>2</IncentivadorCultural>
+          <Competencia>2024-04-05</Competencia>
+          <Servico>
+            <Valores>
+              <ValorServicos>6054.24</ValorServicos>
+              <ValorPis>39.35</ValorPis>
+              <ValorCofins>181.63</ValorCofins>
+              <ValorIr>90.81</ValorIr>
+              <ValorCsll>60.54</ValorCsll>
+              <IssRetido>2</IssRetido>
+              <ValorIss>121.08</ValorIss>
+              <BaseCalculo>6054.24</BaseCalculo>
+              <Aliquota>0.02</Aliquota>
+              <ValorLiquidoNfse>5681.91</ValorLiquidoNfse>
+            </Valores>
+            <ItemListaServico>0107</ItemListaServico>
+            <CodigoTributacaoMunicipio>6209100</CodigoTributacaoMunicipio>
+            <Discriminacao>MANUTENCAO DO SISTEMA GIF COMPETNCIA 9/2023                                          R$ 6054,24|Carga Tributaria da Lei 12741/2012. R$: 493,42 Federal e 302,71 Municipal|Incentivo porto ISS Porto Digital Lei 17.244/2006 Art. 5_. Aprovado pela  Resolucao n_ 29 de 17| de outubro de 2022||</Discriminacao>
+            <CodigoMunicipio>2611606</CodigoMunicipio>
+          </Servico>
+          <PrestadorServico>
+            <IdentificacaoPrestador>
+              <Cnpj>28287705000150</Cnpj>
+              <InscricaoMunicipal>5954304</InscricaoMunicipal>
+            </IdentificacaoPrestador>
+            <RazaoSocial>GIF GESTAO INTELIGENCIA DE FATURAMENTO LTDA</RazaoSocial>
+            <Endereco>
+              <Endereco>RUA DOMINGOS JOSE MARTINS 75, SALA 08 -</Endereco>
+              <Numero>75</Numero>
+              <Complemento>SALA 08 -</Complemento>
+              <Bairro>RECIFE</Bairro>
+              <CodigoMunicipio>2611606</CodigoMunicipio>
+              <Uf>PE</Uf>
+              <Cep>50030200</Cep>
+            </Endereco>
+            <Contato>
+              <Telefone>8139727000</Telefone>
+              <Email>faturamento@mv.com.br</Email>
+            </Contato>
+          </PrestadorServico>
+          <TomadorServico>
+            <IdentificacaoTomador>
+              <CpfCnpj>
+                <Cnpj>92685833000151</Cnpj>
+              </CpfCnpj>
+            </IdentificacaoTomador>
+            <RazaoSocial>ASSOCIACAO HOSPITALAR MOINHOS DE VENTO</RazaoSocial>
+            <Endereco>
+              <Endereco>Rua R RAMIRO BARCELOS 910</Endereco>
+              <Numero>910</Numero>
+              <Bairro>MOINHOS DE VENTO</Bairro>
+              <CodigoMunicipio>4314902</CodigoMunicipio>
+              <Uf>RS</Uf>
+              <Cep>90035001</Cep>
+            </Endereco>
+            <Contato>
+              <Email>jair.barboza@hmv.org.br</Email>
+            </Contato>
+          </TomadorServico>
+          <OrgaoGerador>
+            <CodigoMunicipio>2611606</CodigoMunicipio>
+            <Uf>PE</Uf>
+          </OrgaoGerador>
+        </InfNfse>
+      </Nfse>
+    </CompNfse>
+  </ListaNfse>
+</ConsultarNfseResposta>

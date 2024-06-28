@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ns1:ConsultarNfseResposta xmlns:ns1="http://nfe.sjp.pr.gov.br/servico_consultar_nfse_resposta_v03.xsd" xmlns:ns2="http://nfe.sjp.pr.gov.br/tipos_v03.xsd" xmlns:ns3="http://www.w3.org/2000/09/xmldsig#">
+  <ns1:ListaNfse>
+    <ns1:CompNfse xmlns:default="http://nfe.sjp.pr.gov.br/tipos_v03.xsd">
+      <Nfse xmlns="http://nfe.sjp.pr.gov.br/tipos_v03.xsd">
+        <InfNfse Id="1">
+          <Numero>202300000173415</Numero>
+          <CodigoVerificacao>456187455</CodigoVerificacao>
+          <DataEmissao>2024-05-02</DataEmissao>
+          <IdentificacaoRps>
+            <Numero>173368</Numero>
+            <Serie>01</Serie>
+            <Tipo>1</Tipo>
+          </IdentificacaoRps>
+          <NaturezaOperacao>1</NaturezaOperacao>
+          <OptanteSimplesNacional>2</OptanteSimplesNacional>
+          <IncentivadorCultural>2</IncentivadorCultural>
+          <Competencia>2024-05-02</Competencia>
+          <Servico>
+            <Valores>
+              <ValorServicos>58960.00</ValorServicos>
+              <ValorPis>383.24</ValorPis>
+              <ValorCofins>1768.80</ValorCofins>
+              <ValorIr>589.60</ValorIr>
+              <ValorCsll>589.60</ValorCsll>
+              <IssRetido>2</IssRetido>
+              <ValorIss>2948.00</ValorIss>
+              <BaseCalculo>58960.00</BaseCalculo>
+              <Aliquota>0.05</Aliquota>
+              <ValorLiquidoNfse>55628.76</ValorLiquidoNfse>
+            </Valores>
+            <ItemListaServico>7.09</ItemListaServico>
+            <CodigoCnae>3822000</CodigoCnae>
+            <CodigoTributacaoMunicipio>382200001</CodigoTributacaoMunicipio>
+            <Discriminacao>Aterro Classe II .  PERIODO DE 01/09/23 a 30/09/23   LEI 12.741/2012 - VALOR APROXIMADO DOS TRIBUTOS 14,25% PIS(0.65%):383.24 COFINS(3.00%):1768.80 CSLL(1.00%):589.60 IRRF(1.00%):589.60 Valor Liquido a Pagar: 55628.76 Vencimento: 29/12/2023 21294215 - Conteiner 1000L Grupo D - Comum 1.072,00 X 55,00 : 58.960,00</Discriminacao>
+            <CodigoMunicipio>4125506</CodigoMunicipio>
+          </Servico>
+          <PrestadorServico>
+            <IdentificacaoPrestador>
+              <Cnpj>07067001000100</Cnpj>
+              <InscricaoMunicipal>30593</InscricaoMunicipal>
+            </IdentificacaoPrestador>
+            <RazaoSocial>AMBSERV TRATAMENTO DE RESIDUOS LTDA</RazaoSocial>
+            <Endereco>
+              <Endereco>  Rua Alexandre Zanchetta</Endereco>
+              <Numero>337</Numero>
+              <Bairro>Campina</Bairro>
+              <CodigoMunicipio>4125506</CodigoMunicipio>
+              <Uf>PR</Uf>
+              <Cep>83015148</Cep>
+            </Endereco>
+            <Contato>
+              <Telefone>04130819500</Telefone>
+              <Email>faturamentopr@ambserv.com.br</Email>
+            </Contato>
+          </PrestadorServico>
+          <TomadorServico>
+            <IdentificacaoTomador>
+              <CpfCnpj>
+                <Cnpj>92685833000151</Cnpj>
+              </CpfCnpj>
+            </IdentificacaoTomador>
+            <RazaoSocial>ASSOCIACAO HOSPITALAR MOINHOS DE VENTO</RazaoSocial>
+            <Endereco>
+              <Endereco>R RAMIRO BARCELOS</Endereco>
+              <Numero>910</Numero>
+              <Bairro>MOINHOS DE VENTO</Bairro>
+              <CodigoMunicipio>4314902</CodigoMunicipio>
+              <Uf>RS</Uf>
+              <Cep>90035001</Cep>
+            </Endereco>
+            <Contato>
+              <Telefone>05133143136</Telefone>
+              <Email>rogerio.silva@hmv.org.br</Email>
+            </Contato>
+          </TomadorServico>
+          <OrgaoGerador>
+            <CodigoMunicipio>4125506</CodigoMunicipio>
+            <Uf>PR</Uf>
+          </OrgaoGerador>
+        </InfNfse>
+      </Nfse>
+    </ns1:CompNfse>
+  </ns1:ListaNfse>
+</ns1:ConsultarNfseResposta>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompNfse xmlns="http://www.abrasf.org.br/nfse.xsd">
+  <Nfse xmlns="http://www.abrasf.org.br/nfse.xsd" versao="1.00">
+    <InfNfse Id="nfse" xmlns="http://www.abrasf.org.br/nfse.xsd">
+      <Numero>202300000000690</Numero>
+      <CodigoVerificacao>63fc7751</CodigoVerificacao>
+      <DataEmissao>2024-05-02</DataEmissao>
+      <NaturezaOperacao>2</NaturezaOperacao>
+      <OptanteSimplesNacional>2</OptanteSimplesNacional>
+      <IncentivadorCultural>2</IncentivadorCultural>
+      <Competencia>2024-05-02</Competencia>
+      <NfseSubstituida>202300000000656</NfseSubstituida>
+      <OutrasInformacoes>Chave de acesso no Ambiente de Dados Nacional: 31062001217062517000108230000000069023094357310250.</OutrasInformacoes>
+      <Servico>
+        <Valores>
+          <ValorServicos>4325.00</ValorServicos>
+          <IssRetido>1</IssRetido>
+          <ValorIss>216.25</ValorIss>
+          <ValorIssRetido>216.25</ValorIssRetido>
+          <BaseCalculo>4325.00</BaseCalculo>
+          <Aliquota>0.05</Aliquota>
+          <ValorLiquidoNfse>4108.75</ValorLiquidoNfse>
+        </Valores>
+        <ItemListaServico>16.02</ItemListaServico>
+        <CodigoTributacaoMunicipio>160200588</CodigoTributacaoMunicipio>
+        <Discriminacao>Organização logística de transporte de carga.</Discriminacao>
+        <CodigoMunicipio>4314902</CodigoMunicipio>
+      </Servico>
+      <PrestadorServico>
+        <IdentificacaoPrestador>
+          <Cnpj>17062517000108</Cnpj>
+          <InscricaoMunicipal>04680630018</InscricaoMunicipal>
+        </IdentificacaoPrestador>
+        <RazaoSocial>SURE LOGISTICA LTDA</RazaoSocial>
+        <NomeFantasia>LOGLIFE</NomeFantasia>
+        <Endereco>
+          <Endereco>RUA AMOROSO COSTA</Endereco>
+          <Numero>242</Numero>
+          <Complemento>SALA 201A205 E 301A305</Complemento>
+          <Bairro>Santa Lúcia</Bairro>
+          <CodigoMunicipio>3106200</CodigoMunicipio>
+          <Uf>MG</Uf>
+          <Cep>30350570</Cep>
+        </Endereco>
+        <Contato>
+          <Telefone>3136544851</Telefone>
+          <Email>financeiro@loglifelogistica.com.br</Email>
+        </Contato>
+      </PrestadorServico>
+      <TomadorServico>
+        <IdentificacaoTomador>
+          <CpfCnpj>
+            <Cnpj>92685833000151</Cnpj>
+          </CpfCnpj>
+        </IdentificacaoTomador>
+        <RazaoSocial>ASSOCIACAO HOSPITALAR MOINHOS DE VENTO</RazaoSocial>
+        <Endereco>
+          <Endereco>RUA RAMIRO BARCELOS</Endereco>
+          <Numero>910</Numero>
+          <Bairro>MOINHOS DE VENTO</Bairro>
+          <CodigoMunicipio>4314902</CodigoMunicipio>
+          <Uf>RS</Uf>
+          <Cep>90035001</Cep>
+        </Endereco>
+      </TomadorServico>
+      <OrgaoGerador>
+        <CodigoMunicipio>3106200</CodigoMunicipio>
+        <Uf>MG</Uf>
+      </OrgaoGerador>
+    </InfNfse>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="NfseAssSMF_nfse">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#nfse">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>UmEWcl2OnzNgP0Ajq3/T/oYL5BM=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>BVAvQt+/XjY32deJBnCq3rfdkITbNx7+PDzY91zTRgsxrAqnnUUKHitAHwuNnI5iPSPd32HnI8nKH6E6vng8/C1yD877zO6gz2NDt0xb9sz2B7T2eHfnkyWm8QrdqxeutK8jSM2O5tPQVSJm+v0MobWErY3vq7ZwYHoAqIokCBOHI2TEuQcjC/HHUKv4m4EwCEpeFPu0MYqG/fzz4igIRRliK8xi034SnKscBQXRM9Iqm1bbM/tYFqDJNB9Cc2WbwGHRWA+UEOZ7jdw+spBG0Opqz4MK6QLP1Zx3JbI3UhrulVdLwp6rdMejNnP9BYu8svE3pjrptr8GRhoko3tzcQ==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="assinatura_nfse">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#nfse">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>UmEWcl2OnzNgP0Ajq3/T/oYL5BM=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>c5FVqp1SD5WdrBwZ6q1k4tc7I9Mtm49PhWCzF40TnX+gLnVUY0SF6pffQOnGphwMfaAEwb2qfasw/2y94hldH/ro33y3Nauck8JySx2hmn21qPaFJmrP3j562s5uRXe9TnqTNlEqlMlwWb+DiP95pjglj/1g3JyXWz7n7Z+zzncezQ6+ZJyBv6TyiAqsEELg5GWYwOfoIWZ/l+JkE2iKvXSwIWglhQWBNVDbBs0XynSGYKys5UHZthPnQ4sXKFWW++PCKPCWGEvTKz9FgWV4GzudgaRL8uDihp6CTdresrYBfvTwh8cUG4ig5izDpObosXi+CXi7+c7AUPf9HHJqBg==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </Nfse>
+</CompNfse>

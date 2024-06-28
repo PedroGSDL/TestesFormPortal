@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConsultarNfseLote>
+  <ListaNfse>
+    <CompNfse>
+      <Nfse>
+        <InfNfse id="34">
+          <Numero>34</Numero>
+          <Serie />
+          <Tipo />
+          <CodigoVerificacao>91C8.BFFA.E23E</CodigoVerificacao>
+          <DataEmissao>2024-05-02</DataEmissao>
+          <IdentificacaoRps>
+            <Numero>0</Numero>
+            <Serie />
+            <Tipo>0</Tipo>
+          </IdentificacaoRps>
+          <DataEmissaoRps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"></DataEmissaoRps>
+          <NaturezaOperacao>2</NaturezaOperacao>
+          <OptanteSimplesNacional>1</OptanteSimplesNacional>
+          <IncentivadorCultural>2</IncentivadorCultural>
+          <Competencia>2024-05-02</Competencia>
+          <OutrasInformacoes>Nota Fiscal referente ao orçamento 0172/1, OS 30 Manutenção Totem Mapas Entrada Ramiro Barcelos -HMV. / PARA QUITAÇAO DESTA NOTA FISCAL EFETUAR PAGAMENTO NO BANCO INTER AGENCIA 0001-9 C/C 27540113-8 OU PIX NOSSA CHAVE É NOSSO CNPJ: 48 195 090 0001 40. / VENCIMENTO 20/01/2024.</OutrasInformacoes>
+          <Servico>
+            <Valores>
+              <ValorServicos>3579.00</ValorServicos>
+              <ValorDeducoes>0.00</ValorDeducoes>
+              <ValorPis>0.00</ValorPis>
+              <ValorCofins>0.00</ValorCofins>
+              <ValorInss>0.00</ValorInss>
+              <ValorIr>0.00</ValorIr>
+              <ValorCsll>0.00</ValorCsll>
+              <IssRetido>1</IssRetido>
+              <ValorIss>151.75</ValorIss>
+              <ValorIssRetido>151.75</ValorIssRetido>
+              <OutrasRetencoes>0.00</OutrasRetencoes>
+              <BaseCalculo>3579.00</BaseCalculo>
+              <Aliquota>0.0424</Aliquota>
+              <ValorLiquidoNfse>3427.25</ValorLiquidoNfse>
+              <DescontoIncondicionado>0.00</DescontoIncondicionado>
+              <DescontoCondicionado>0.00</DescontoCondicionado>
+            </Valores>
+            <ItemListaServico>1406</ItemListaServico>
+            <CodigoTributacaoMunicipio>1406</CodigoTributacaoMunicipio>
+            <Discriminacao>Nota Fiscal referente ao orçamento 0172/1, OS 30 Manutenção Totem Mapas Entrada Ramiro Barcelos -HMV. / PARA QUITAÇAO DESTA NOTA FISCAL EFETUAR PAGAMENTO NO BANCO INTER AGENCIA 0001-9 C/C 27540113-8 OU PIX NOSSA CHAVE É NOSSO CNPJ: 48 195 090 0001 40. / VENCIMENTO 20/01/2024.</Discriminacao>
+            <CodigoMunicipio>4314902</CodigoMunicipio>
+          </Servico>
+          <ValorCredito>0.00</ValorCredito>
+          <PrestadorServico>
+            <IdentificacaoPrestador>
+              <Cnpj>48195090000140</Cnpj>
+              <InscricaoMunicipal>6918845</InscricaoMunicipal>
+            </IdentificacaoPrestador>
+            <RazaoSocial>PRETO NO BRANCO COMUNICACAO VISUAL LTDA</RazaoSocial>
+            <NomeFantasia>PRETO NO BRANCO COMUNICACAO VISUAL LTDA</NomeFantasia>
+            <Endereco>
+              <Endereco>RUA SANTOS DUMONT</Endereco>
+              <Numero>626</Numero>
+              <Complemento />
+              <Bairro>NITEROI</Bairro>
+              <CodigoMunicipio>4304606</CodigoMunicipio>
+              <Uf>RS</Uf>
+              <Cep>92120110</Cep>
+            </Endereco>
+            <Contato>
+              <Telefone>34765055</Telefone>
+              <Email>prestes@castelocontabilidade.com.br</Email>
+            </Contato>
+          </PrestadorServico>
+          <TomadorServico>
+            <IdentificacaoTomador>
+              <CpfCnpj>
+                <Cpf />
+                <Cnpj>92685833000151</Cnpj>
+              </CpfCnpj>
+              <InscricaoMunicipal>6889689</InscricaoMunicipal>
+            </IdentificacaoTomador>
+            <RazaoSocial>ASSOCIACAO HOSPITALAR MOINHOS DE VENTO</RazaoSocial>
+            <Endereco>
+              <Endereco>AVENIDA GETÚLIO VARGAS - DE 9611/9612 AO</Endereco>
+              <Numero>11001</Numero>
+              <Complemento />
+              <Bairro>BRIGADEIRA</Bairro>
+              <CodigoMunicipio>4304606</CodigoMunicipio>
+              <Uf>RS</Uf>
+              <Cep>92426000</Cep>
+            </Endereco>
+            <Contato>
+              <Telefone>5133143541</Telefone>
+              <Email>marines@hmv.org.br</Email>
+            </Contato>
+          </TomadorServico>
+          <OrgaoGerador>
+            <CodigoMunicipio>4314902</CodigoMunicipio>
+            <Uf>RS</Uf>
+          </OrgaoGerador>
+        </InfNfse>
+      </Nfse>
+    </CompNfse>
+  </ListaNfse>
+</ConsultarNfseLote>
