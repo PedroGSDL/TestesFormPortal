@@ -35,23 +35,23 @@ public class NotaFiscalHelper
 
     public void Fill1322()
     {
-        driver.FindElement(By.Id("Contato_nome")).SendKeys("FINANCEIRO OVERMIND");
-        driver.FindElement(By.Id("SetorFiscal_email")).SendKeys("FINANCEIRO@OVERMIND.AI");
+        driver.FindElement(By.Id("Contato_nome")).SendKeys("");
+        driver.FindElement(By.Id("SetorFiscal_email")).SendKeys("");
         driver.FindElement(By.Id("Contato_telefone")).SendKeys("51");
         driver.FindElement(By.Id("SetorFiscal_telefone")).SendKeys("51");
-        driver.FindElement(By.Id("Nota_numero")).SendKeys("2798");
-        driver.FindElement(By.Id("Nota_pdf")).SendKeys("C:\\Users\\pedro.lima\\Desktop\\TestesFormPortal\\ExceptionFiles\\1322_15894660_BOLETO - NF 2798.PDF");
+        driver.FindElement(By.Id("Nota_numero")).SendKeys("");
+        driver.FindElement(By.Id("Nota_pdf")).SendKeys("");
         DateTime currentDate = DateTime.Now;
         string formattedDate = currentDate.ToString("dd/MM/yyyy");
         driver.FindElement(By.Id("Emissao")).SendKeys(formattedDate);
-        driver.FindElement(By.Id("Nota_xml")).SendKeys("C:\\Users\\pedro.lima\\Desktop\\TestesFormPortal\\ExceptionFiles\\1322_15894660_2798.XML");
+        driver.FindElement(By.Id("Nota_xml")).SendKeys("");
     }
 
     public void Fill3065()
     {
      
-        driver.FindElement(By.Id("Contato_nome")).SendKeys("TIANA DANTAS");
-        driver.FindElement(By.Id("SetorFiscal_email")).SendKeys("TIANA.CARVALHO@IRMADULCE.ORG.BR");
+        driver.FindElement(By.Id("Contato_nome")).SendKeys("");
+        driver.FindElement(By.Id("SetorFiscal_email")).SendKeys("");
         driver.FindElement(By.Id("Contato_telefone")).SendKeys("51");
         driver.FindElement(By.Id("SetorFiscal_telefone")).SendKeys("51");
         driver.FindElement(By.Id("Nota_numero")).SendKeys("3123");
@@ -65,7 +65,7 @@ public class NotaFiscalHelper
 
     public void UpdateDates()
     {
-        originalXmlFilePath = @"C:\Users\pedro.lima\Desktop\TestesFormPortal\ExceptionFiles\1322_15894660_2798.XML";
+        originalXmlFilePath = @"";
         XmlDocument xmlDoc = new XmlDocument();
         xmlDoc.Load(originalXmlFilePath);
         XmlNodeList competenciaNodes = xmlDoc.GetElementsByTagName("Competencia");
