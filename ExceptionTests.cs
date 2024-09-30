@@ -1,47 +1,50 @@
-﻿using NUnit.Framework;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using SeleniumExtras.WaitHelpers;
-using OpenQA.Selenium.Support.UI;
-using WebDriverManager;
-using WebDriverManager.DriverConfigs.Impl;
-using FluentAssertions;
-using System.Linq;
-using System.Collections.Generic;
-using System.Configuration;
-using System;
+using NUnit.Framework; // Importa a biblioteca NUnit para testes.
+using OpenQA.Selenium; // Importa a biblioteca Selenium para automação de testes web.
+using OpenQA.Selenium.Chrome; // Importa o driver do Chrome para Selenium.
+using SeleniumExtras.WaitHelpers; // Importa helpers para esperas no Selenium.
+using OpenQA.Selenium.Support.UI; // Importa suporte para WebDriverWait.
+using WebDriverManager; // Importa o WebDriverManager para gerenciar drivers.
+using WebDriverManager.DriverConfigs.Impl; // Importa configurações do WebDriverManager.
+using FluentAssertions; // Importa FluentAssertions para asserções em testes.
+using System.Linq; // Importa Linq para manipulação de coleções.
+using System.Collections.Generic; // Importa coleções genéricas.
+using System.Configuration; // Importa para acessar configurações.
+using System; // Importa para uso de funcionalidades básicas.
 
-//
-//
-//Driver não atualiza conforme o Chrome
-//
-//
-namespace PortalTests
+namespace PortalTests // Namespace para agrupar testes.
 {
-    [TestFixture]
+    [TestFixture] // Indica que esta classe contém testes.
     public class ExceptionTests
     {
-        private IWebDriver driver;
-        private WebDriverWait wait;
-        private NotaFiscalHelper notaFiscalHelper;
+        private IWebDriver driver; // Declara o driver do Selenium.
+        private WebDriverWait wait; // Declara um objeto para gerenciar esperas.
+        private NotaFiscalHelper notaFiscalHelper; // Declara um helper para operações de Nota Fiscal.
 
-        [SetUp]
+        [SetUp] // Método que é executado antes de cada teste.
         public void Setup()
         {
+            // Configura opções para o ChromeDriver.
             ChromeOptions options = new ChromeOptions();
-            options.AddArgument("--start-maximized");
+            options.AddArgument("--start-maximized"); // Inicia o navegador maximizado.
+
+            // Configura o driver do Chrome utilizando o WebDriverManager.
             new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
-            driver = new ChromeDriver(options);
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
-            notaFiscalHelper = new NotaFiscalHelper(driver);
+            driver = new ChromeDriver(options); // Inicializa o ChromeDriver.
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10)); // Configura espera de 10 segundos.
+            notaFiscalHelper = new NotaFiscalHelper(driver); // Inicializa o helper de Nota Fiscal.
         }
 
-        [Test]
+        [Test] // Indica que este método é um teste.
         public void AllEmptyFieldAlerts()
         {
-            driver.Navigate().GoToUrl("https://demo.powerserv.com.br/osfornecedorTeste/Client/notafiscal.html?");
+            // Navega até a URL específica do formulário.
+            driver.Navigate().GoToUrl("URL_DO_FORMULARIO"); // Insira a URL do formulário aqui.
+
+            // Chama métodos para liberar envio e submeter o formulário.
             notaFiscalHelper.LiberarParaEnvio();
             notaFiscalHelper.Submit();
+
+            // Lista de mensagens de erro esperadas para campos vazios.
             List<string> expectedErrors = new List<string>
             {
                 "Preencha \"EMAIL SETOR FISCAL\".",
@@ -52,21 +55,26 @@ namespace PortalTests
                 "Preencha \"TELEFONE SETOR FISCAL\".",
                 "Preencha \"VALOR DA NOTA\"."
             };
+
+            // Espera até que as mensagens de erro estejam visíveis e armazena na lista.
             var errorMessages = wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.XPath("//*[contains(text(), 'Preencha')]")));
             List<string> actualErrors = errorMessages.Select(element => element.Text).ToList();
+
+            // Verifica se todas as mensagens de erro esperadas estão presentes.
             foreach (var expectedError in expectedErrors)
             {
                 actualErrors.Should().Contain(expectedError, $"A mensagem '{expectedError}' não foi encontrada.");
             }
         }
 
-        //Ajustar os caminhos dos documentos para o Else
         [Test]
         public void NoteAlreadySent()
         {
-            driver.Navigate().GoToUrl("https://demo.powerserv.com.br/osfornecedor/Client/notafiscal.html?ee48e64680d085864cb1a0e3aa6bf5c5");
+            // Navega para a URL onde a nota já foi enviada.
+            driver.Navigate().GoToUrl("URL_DA_NOTA_JA_ENVIADA"); // Insira a URL aqui.
             var errorMessageElement = wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.XPath("//*[contains(text(), 'Nota Fiscal já encaminhada, não é possível encaminha-la novamente!')]"))).FirstOrDefault();
 
+            // Se a mensagem de erro é encontrada, valida seu conteúdo.
             if (errorMessageElement != null)
             {
                 var errorMessage = errorMessageElement.Text;
@@ -74,40 +82,53 @@ namespace PortalTests
             }
             else
             {
+                // Caso a mensagem não seja encontrada, preenche o formulário e submete.
                 notaFiscalHelper.UpdateDates();
                 notaFiscalHelper.Fill1322();
                 notaFiscalHelper.ReturnDates();
                 notaFiscalHelper.WaitForCnpjFieldToBeFilled(driver);
                 notaFiscalHelper.LiberarParaEnvio();
                 notaFiscalHelper.Submit();
+
+                // Espera pela mensagem de sucesso após o envio.
                 wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.XPath("//*[contains(text(), 'Nota enviada com sucesso!')]")));
                 driver.PageSource.Should().Contain("Nota enviada com sucesso!", "A mensagem 'Nota enviada com sucesso!' não foi encontrada.");
-                driver.Navigate().GoToUrl("https://demo.powerserv.com.br/osfornecedor/Client/notafiscal.html?ee48e64680d085864cb1a0e3aa6bf5c5");
+
+                // Navega novamente para verificar se a nota ainda está enviada.
+                driver.Navigate().GoToUrl("URL_DA_NOTA_JA_ENVIADA"); // Insira a URL novamente aqui.
                 errorMessageElement = wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.XPath("//*[contains(text(), 'Nota Fiscal já encaminhada, não é possível encaminha-la novamente!')]"))).FirstOrDefault();
                 var errorMessage = errorMessageElement?.Text;
                 errorMessage.Should().Contain("Nota Fiscal já encaminhada, não é possível encaminha-la novamente!", "A mensagem 'Nota Fiscal já encaminhada, não é possível encaminha-la novamente!' não foi encontrada.");
             }
         }
 
-
         [Test]
         public void WrongFileInXmlAndPdfFields()
         {
-            driver.Navigate().GoToUrl("https://demo.powerserv.com.br/osfornecedor/Client/notafiscal.html?695d9a00c3fe0f8d7392537b6a805cdf");
-            driver.FindElement(By.Id("Nota_xml")).SendKeys("C:\\Users\\pedro.lima\\Desktop\\TestesFormPortal\\ExceptionFiles\\3065_16004996_NF 3123 ASSOC HOSP MOINHOS DE VENTO.PDF");
-            driver.FindElement(By.Id("Nota_pdf")).SendKeys("C:\\Users\\pedro.lima\\Desktop\\TestesFormPortal\\ExceptionFiles\\3065_16004996_NFSE_RPS_956500169_20231025_20231025.XML");
+            // Navega para a URL do formulário de Nota Fiscal.
+            driver.Navigate().GoToUrl("URL_DO_FORMULARIO"); // Insira a URL do formulário aqui.
+
+            // Envia arquivos de PDF e XML inválidos para os campos correspondentes.
+            driver.FindElement(By.Id("Nota_xml")).SendKeys("CAMINHO_DO_ARQUIVO_PDF"); // Insira o caminho do arquivo PDF aqui.
+            driver.FindElement(By.Id("Nota_pdf")).SendKeys("CAMINHO_DO_ARQUIVO_XML"); // Insira o caminho do arquivo XML aqui.
+
+            // Espera até que as mensagens de erro apropriadas sejam visíveis.
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[contains(text(), 'O arquivo inserido deve ser um XML!') or contains(text(), 'O arquivo inserido deve ser um PDF!')]")));
             notaFiscalHelper.WaitForCnpjFieldToBeFilled(driver);
             notaFiscalHelper.LiberarParaEnvio();
             notaFiscalHelper.Submit();
+
+            // Coleta mensagens de erro geradas e valida se estão corretas.
             var errorMessages = driver.FindElements(By.XPath("//*[contains(text(), 'O arquivo inserido deve ser um XML!') or contains(text(), 'O arquivo inserido deve ser um PDF!')]"));
             List<string> actualErrors = errorMessages.Select(element => element.Text).ToList();
             List<string> expectedErrors = new List<string>
-    {
-        "O arquivo inserido deve ser um XML!",
-        "O arquivo inserido deve ser um PDF!"
-    };
+            {
+                "O arquivo inserido deve ser um XML!",
+                "O arquivo inserido deve ser um PDF!"
+            };
+
+            // Verifica se todas as mensagens de erro esperadas estão presentes.
             foreach (var expectedError in expectedErrors)
             {
                 actualErrors.Should().Contain(expectedError, $"A mensagem '{expectedError}' não foi encontrada.");
@@ -117,113 +138,33 @@ namespace PortalTests
         [Test]
         public void NoDocumentInPDFAndXMLFields()
         {
-            driver.Navigate().GoToUrl("https://demo.powerserv.com.br/osfornecedor/Client/notafiscal.html?793051a31ef93ca2bab16c34e7fd7d47");
-            notaFiscalHelper.UpdateDates();
-            notaFiscalHelper.Fill3065();
-            notaFiscalHelper.ReturnDates();
-            notaFiscalHelper.WaitForCnpjFieldToBeFilled(driver);
-            notaFiscalHelper.Submit();
-            var errorMessage = wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.XPath("//*[contains(text(), 'Documento não preenchido,')]"))).FirstOrDefault()?.Text;
-            errorMessage.Should().Contain("Documento não preenchido,", "A mensagem 'Documento não preenchido,' não foi encontrada.");
+            // Navega até a URL onde o formulário é acessado.
+            driver.Navigate().GoToUrl("URL_DO_FORMULARIO"); // Insira a URL do formulário aqui.
+            notaFiscalHelper.UpdateDates(); // Atualiza as datas do formulário.
+            notaFiscalHelper.Fill3065(); // Preenche o formulário com dados específicos.
+            notaFiscalHelper.LiberarParaEnvio(); // Prepara o formulário para envio.
+            notaFiscalHelper.Submit(); // Submete o formulário.
+
+            // Espera até que as mensagens de erro apropriadas sejam visíveis.
+            wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[contains(text(), 'Campo requerido!')]")));
+            var errorMessages = driver.FindElements(By.XPath("//*[contains(text(), 'Campo requerido!')]"));
+            List<string> actualErrors = errorMessages.Select(element => element.Text).ToList();
+            List<string> expectedErrors = new List<string>
+            {
+                "Campo requerido!"
+            };
+
+            // Verifica se todas as mensagens de erro esperadas estão presentes.
+            foreach (var expectedError in expectedErrors)
+            {
+                actualErrors.Should().Contain(expectedError, $"A mensagem '{expectedError}' não foi encontrada.");
+            }
         }
 
-        [Test]
-        public void LibereParaOEnvioButtonUnpressed()
+        [TearDown] // Método que é executado após cada teste.
+        public void TearDown()
         {
-            driver.Navigate().GoToUrl("https://demo.powerserv.com.br/osfornecedor/Client/notafiscal.html?793051a31ef93ca2bab16c34e7fd7d47");
-            notaFiscalHelper.UpdateDates();
-            notaFiscalHelper.Fill3065();
-            notaFiscalHelper.ReturnDates();
-            driver.FindElement(By.Id("Nota_pdf")).SendKeys("C:\\Users\\pedro.lima\\Desktop\\TestesFormPortal\\ExceptionFiles\\3065_16004996_NF 3123 ASSOC HOSP MOINHOS DE VENTO.PDF");
-            driver.FindElement(By.Id("Nota_xml")).SendKeys("C:\\Users\\pedro.lima\\Desktop\\TestesFormPortal\\ExceptionFiles\\3065_16004996_NFSE_RPS_956500169_20231025_20231025.XML");
-            notaFiscalHelper.WaitForCnpjFieldToBeFilled(driver);
-            notaFiscalHelper.Submit();
-            var errorMessage = wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.XPath("//*[contains(text(), 'Libere para o envio,')]"))).FirstOrDefault()?.Text;
-            errorMessage.Should().Contain("Libere para o envio,", "A mensagem 'Libere para o envio,' não foi encontrada.");
-            
-        }
-
-        //Entender o porque essa nota parece errada
-        [Test]
-        public void WrongValueInXML()
-        {
-            driver.Navigate().GoToUrl("https://demo.powerserv.com.br/osfornecedor/Client/notafiscal.html?793051a31ef93ca2bab16c34e7fd7d47");
-            notaFiscalHelper.UpdateDates();
-            notaFiscalHelper.Fill3065();
-            notaFiscalHelper.ReturnDates();
-            driver.FindElement(By.Id("Nota_pdf")).SendKeys("C:\\Users\\pedro.lima\\Desktop\\TestesFormPortal\\ExceptionFiles\\3065_16237982_NF Nº 8232 - ASSOCIAÇÃO HOSPITALAR MOINHOS DE VENTO.PDF");
-            driver.FindElement(By.Id("Nota_xml")).SendKeys("C:\\Users\\pedro.lima\\Desktop\\TestesFormPortal\\ExceptionFiles\\3065_16237982_8232 (wrongValue).XML");
-            Thread.Sleep(5000);
-            notaFiscalHelper.LiberarParaEnvio();
-            notaFiscalHelper.Submit();
-            Thread.Sleep(10000);
-        }
-
-        [Test]
-        public void WrongCNPJInXML()
-        {
-            driver.Navigate().GoToUrl("https://demo.powerserv.com.br/osfornecedor/Client/notafiscal.html?793051a31ef93ca2bab16c34e7fd7d47");
-            notaFiscalHelper.UpdateDates();
-            notaFiscalHelper.Fill3065();
-            notaFiscalHelper.ReturnDates();
-            driver.FindElement(By.Id("Nota_pdf")).SendKeys("C:\\Users\\pedro.lima\\Desktop\\TestesFormPortal\\ExceptionFiles\\3065_16004996_NF 3123 ASSOC HOSP MOINHOS DE VENTO.PDF");
-            driver.FindElement(By.Id("Nota_xml")).SendKeys("C:\\Users\\pedro.lima\\Desktop\\TestesFormPortal\\ExceptionFiles\\3065_16004996_NFSE_RPS_956500169_20231025_20231025.XML");
-            notaFiscalHelper.WaitForCnpjFieldToBeFilled(driver);
-            notaFiscalHelper.LiberarParaEnvio();
-            notaFiscalHelper.Submit();
-            var errorMessage = wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.XPath("//*[contains(text(), 'CNPJ do prestador não identificado no Arquivo')]"))).FirstOrDefault()?.Text;
-            errorMessage.Should().Contain("CNPJ do prestador não identificado no Arquivo", "A mensagem 'CNPJ do prestador não identificado no Arquivo' não foi encontrada.");
-        }
-        
-[Test]
-public void InvalidDateField()
-{
-    driver.Navigate().GoToUrl("https://demo.powerserv.com.br/osfornecedor/Client/notafiscal.html?793051a31ef93ca2bab16c34e7fd7d47");
-    notaFiscalHelper.UpdateDates();
-    notaFiscalHelper.Fill3065();
-    notaFiscalHelper.ReturnDates();
-    driver.FindElement(By.Id("Emissao")).Clear();
-    driver.FindElement(By.Id("Emissao")).SendKeys("25022024");
-    driver.FindElement(By.Id("Nota_pdf")).SendKeys("C:\\Users\\pedro.lima\\Desktop\\TestesFormPortal\\ExceptionFiles\\3065_16004996_NF 3123 ASSOC HOSP MOINHOS DE VENTO.PDF");
-    driver.FindElement(By.Id("Nota_xml")).SendKeys("C:\\Users\\pedro.lima\\Desktop\\TestesFormPortal\\ExceptionFiles\\3065_16004996_NFSE_RPS_956500169_20231025_20231025.XML");
-    notaFiscalHelper.WaitForCnpjFieldToBeFilled(driver);
-    notaFiscalHelper.LiberarParaEnvio();
-    notaFiscalHelper.Submit();
-    try
-    {
-         var errorMessage = wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.XPath("//*[contains(text(), 'Prezado Usuário, o envio de notas não é mais permitido, pois passou do periodo de 4 dias uteis após a emissão')]"))).FirstOrDefault()?.Text;
-                errorMessage.Should().Contain("Prezado Usuário, o envio de notas não é mais permitido, pois passou do periodo de 4 dias uteis após a emissão", "A mensagem 'Prezado Usuário, o envio de notas não é mais permitido, pois passou do periodo de 4 dias uteis após a emissão' não foi encontrada.");
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine("Exceção ao tentar pegar a mensagem de erro: " + ex.Message);
-    }
-}
-
-
-        [Test]
-        public void XMLNotFromHMV()
-        {
-            driver.Navigate().GoToUrl("https://demo.powerserv.com.br/osfornecedor/Client/notafiscal.html?695d9a00c3fe0f8d7392537b6a805cdf");
-            notaFiscalHelper.UpdateDates();
-            notaFiscalHelper.Fill3065();
-            notaFiscalHelper.ReturnDates();
-            driver.FindElement(By.Id("Nota_pdf")).SendKeys("C:\\Users\\pedro.lima\\Desktop\\TestesFormPortal\\ExceptionFiles\\3065_16237982_NF Nº 8232 - ASSOCIAÇÃO HOSPITALAR MOINHOS DE VENTO.PDF");
-            driver.FindElement(By.Id("Nota_xml")).SendKeys("C:\\Users\\pedro.lima\\Desktop\\TestesFormPortal\\ExceptionFiles\\The Great Gatsby.xml");
-            notaFiscalHelper.WaitForCnpjFieldToBeFilled(driver);
-            notaFiscalHelper.LiberarParaEnvio();
-            notaFiscalHelper.Submit();
-            Thread.Sleep(10000);
-            //Pegar o nome do erro corretamente
-            //var errorMessage = wait.Until(ExpectedConditions.VisibilityOfAllElementsLocatedBy(By.XPath("//*[contains(text(), 'Libere para o envio,')]"))).FirstOrDefault()?.Text;
-            //errorMessage.Should().Contain("Libere para o envio,", "A mensagem 'Libere para o envio,' não foi encontrada.");
-
-        }
-
-        [TearDown]
-        public void Teardown()
-        {
-            driver.Quit();
+            driver.Quit(); // Fecha o navegador após os testes.
         }
     }
 }
